@@ -47,4 +47,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 for pushing code to git 
 1. git add .
 2. git commit -m "add cmts here "
-3. git push origin vardhan
+3. git push origin HEAD:vardhan

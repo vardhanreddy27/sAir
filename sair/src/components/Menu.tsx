@@ -1,6 +1,8 @@
 import React from "react";
 import { AiFillHome, AiOutlineStar, AiOutlineUserAdd } from "react-icons/ai";
 import { TbDiscount2 } from "react-icons/tb";
+import { Outlet, Link } from "react-router-dom";
+
 import { BsShop } from "react-icons/bs";
 import { SiOpenstreetmap } from "react-icons/si";
 import { BiSupport } from "react-icons/bi";
@@ -108,79 +110,108 @@ function Menu() {
           }
           onClick={handleClick}
         >
-          <AiFillHome className="menuicon" /> Home
+          <Link to="/">
+            <AiFillHome className="menuicon" /> Home
+          </Link>
         </button>
-        <button
-          type="button"
-          className={
-            isSecond
-              ? "btn btn-lg btn-primary btn-block"
-              : "btn btn-lg btn-block"
-          }
-          onClick={handleClick1}
-        >
-          <TbDiscount2 className="menuicon" /> Best Offers
-        </button>
-        <button
-          type="button"
-          className={
-            isThree
-              ? "btn btn-lg btn-primary btn-block"
-              : "btn btn-lg btn-block"
-          }
-          onClick={handleClick2}
-        >
-          <BsShop className="menuicon" /> Shops
-        </button>
-        <button
-          type="button"
-          className={
-            isFour ? "btn btn-lg btn-primary btn-block" : "btn btn-lg btn-block"
-          }
-          onClick={handleClick3}
-        >
-          <SiOpenstreetmap className="menuicon" /> Track Orders
-        </button>
-        <button
-          type="button"
-          className={
-            isFive ? "btn btn-lg btn-primary btn-block" : "btn btn-lg btn-block"
-          }
-          onClick={handleClick4}
-        >
-          <AiOutlineStar className="menuicon" /> Wish List
-        </button>
-        <button
-          type="button"
-          className={
-            isSix ? "btn btn-lg btn-primary btn-block" : "btn btn-lg btn-block"
-          }
-          onClick={handleClick5}
-        >
-          <BiSupport className="menuicon" /> Support
-        </button>
-        <button
-          type="button"
-          className={
-            isSeven
-              ? "btn btn-lg btn-primary btn-block"
-              : "btn btn-lg btn-block"
-          }
-          onClick={handleClick6}
-        >
-          <RiUserReceivedLine className="menuicon" /> Login
-        </button>
-        <button
-          type="button"
-          className={
-            isEight
-              ? "btn btn-lg btn-primary btn-block"
-              : "btn btn-lg btn-block"
-          }
-          onClick={handleClick7}
-        >
-          <AiOutlineUserAdd className="menuicon" /> Signup
-        </button>
+        <Link to="/bestoffers">
+          <button
+            type="button"
+            className={
+              isSecond
+                ? "btn btn-lg btn-primary btn-block"
+                : "btn btn-lg btn-block"
+            }
+            onClick={handleClick1}
+          >
+            <TbDiscount2 className="menuicon" />
+            Best Offers
+          </button>{" "}
+        </Link>
+        <Link to="/shops">
+          <button
+            type="button"
+            className={
+              isThree
+                ? "btn btn-lg btn-primary btn-block"
+                : "btn btn-lg btn-block"
+            }
+            onClick={handleClick2}
+          >
+            <BsShop className="menuicon" />
+            Shops
+          </button>
+        </Link>
+        <Link to="/trackorders">
+          <button
+            type="button"
+            className={
+              isFour
+                ? "btn btn-lg btn-primary btn-block"
+                : "btn btn-lg btn-block"
+            }
+            onClick={handleClick3}
+          >
+            <SiOpenstreetmap className="menuicon" /> Track Orders
+          </button>{" "}
+        </Link>
+        <Link to="/wishlist">
+          {" "}
+          <button
+            type="button"
+            className={
+              isFive
+                ? "btn btn-lg btn-primary btn-block"
+                : "btn btn-lg btn-block"
+            }
+            onClick={handleClick4}
+          >
+            <AiOutlineStar className="menuicon" /> Wishlist
+          </button>
+        </Link>
+        <Link to="/support">
+          <button
+            type="button"
+            className={
+              isSix
+                ? "btn btn-lg btn-primary btn-block"
+                : "btn btn-lg btn-block"
+            }
+            onClick={handleClick5}
+          >
+            <BiSupport className="menuicon" /> Support
+          </button>{" "}
+        </Link>
+        <Link to="/login">
+          {" "}
+          <button
+            type="button"
+            className={
+              isSeven
+                ? "btn btn-lg btn-primary btn-block"
+                : "btn btn-lg btn-block"
+            }
+            onClick={handleClick6}
+          >
+            <RiUserReceivedLine className="menuicon" />
+            Login
+          </button>{" "}
+        </Link>
+        <Link to="/signup">
+          {" "}
+          <button
+            type="button"
+            className={
+              isEight
+                ? "btn btn-lg btn-primary btn-block"
+                : "btn btn-lg btn-block"
+            }
+            onClick={handleClick7}
+          >
+            <AiOutlineUserAdd className="menuicon" />
+            Signup
+          </button>{" "}
+        </Link>
       </nav>
     </div>
   );

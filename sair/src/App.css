@@ -1,1 +1,53 @@
 .row{--bs-gutter-x: 0rem!important;}
+.nav-link.active{
+background-color: aqua;
+}
+.nav-link{
+    color:black!important;
+}
+.btn-primary{
+    border-radius: 10px!important;
+}
+.btn{
+    margin-top: 0px!important; margin-left: 0px!important; margin-right: 10px!important;
+    text-align: left!important;
+}
+.menuicon{
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.btn-lg {
+    border: white!important;}
+
+.navbar{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.075);
+    position: fixed!important;
+    background-color: white!important;
+    z-index: 10;
+    height: 60px;
+    width: 100%;
+}
+.menu{
+    border-right: 2px solid rgba(0, 0, 0, 0.075);
+    top: 60px;
+    position: relative!important;
+}
+.fixed{
+    position: fixed!important;
+}
+.hero{
+    z-index: 1;
+    top: 60px;
+    position: relative!important;
+
+}
+
+.btn-lg{
+
+    --bs-btn-padding-y: 10px!important;
+    --bs-btn-padding-x: 1rem!important;
+    --bs-btn-font-size: 1rem!important;
+    margin-right: 3px!important;
+    
+}
+.leftmenu{    width: 13.4%!important;}

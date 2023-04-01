@@ -1,13 +1,14 @@
-.row{--bs-gutter-x: 0rem!important;}
+a{
+    text-decoration: none!important;
+    color:black!important;
+}.row{--bs-gutter-x: 0rem!important;}
 .nav-link.active{
 background-color: aqua;
 }
 .nav-link{
     color:black!important;
 }
-.btn-primary{
-    border-radius: 10px!important;
-}
+
 .btn{
     margin-top: 0px!important; margin-left: 0px!important; margin-right: 10px!important;
     text-align: left!important;
@@ -37,7 +38,7 @@ background-color: aqua;
 }
 .hero{
     z-index: 1;
-    top: 60px;
+    top: 50px;
     position: relative!important;
 
 }
@@ -51,3 +52,14 @@ background-color: aqua;
     
 }
 .leftmenu{    width: 13.4%!important;}
+
+.btn-primary{
+    border-radius: 10px!important;
+    color: white!important;
+}
+.col-10{
+    position: relative!important;
+   
+}.stick{
+    height: 509px!important;
+}

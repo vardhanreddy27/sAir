@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import { AiFillHome, AiOutlineStar, AiOutlineUserAdd } from "react-icons/ai";
 import { TbDiscount2 } from "react-icons/tb";
 import { Outlet, Link } from "react-router-dom";
-
+import prd from "../../public/shoe.png";
 import { BsShop } from "react-icons/bs";
 import { SiOpenstreetmap } from "react-icons/si";
 import { BiSupport } from "react-icons/bi";
@@ -185,7 +185,12 @@ function Home() {
                 onClick={handleClick5}
               >
                 <BiSupport className="menuicon" /> Support
-              </button>{" "}
+              </button>
+              <div className="OfferCard">
+                <img src="./shoe.png" className="product" alt="shoe" />
+                <p className="trending">Trending</p>
+              </div>
+              <hr />
               <button
                 type="button"
                 className={

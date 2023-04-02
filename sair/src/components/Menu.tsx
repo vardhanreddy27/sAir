@@ -8,6 +8,7 @@ import { SiOpenstreetmap } from "react-icons/si";
 import { BiSupport } from "react-icons/bi";
 import { RiUserReceivedLine } from "react-icons/ri";
 import { useState } from "react";
+import { FcSearch } from "react-icons/fc";
 
 function Menu() {
   const [isActive, setIsActive] = useState(true);
@@ -124,7 +125,8 @@ function Menu() {
             }
             onClick={handleClick1}
           >
-            <TbDiscount2 className="menuicon" />
+            <FcSearch className="menuicon" />
+         
             Best Offers
           </button>{" "}
         </Link>

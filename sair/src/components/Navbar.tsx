@@ -7,7 +7,17 @@ function Navbar() {
 
 
 
-My code Year!!
+<ul>
+  <li>
+    home
+  </li>
+  <li>
+   mdon
+  </li>
+  <li>
+   rwfkinwvio
+  </li>
+</ul>
 
 
 

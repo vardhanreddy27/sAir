@@ -7,18 +7,6 @@ function Navbar() {
 
 
 
-<ul>
-  <li>
-    home
-  </li>
-  <li>
-   mdon
-  </li>
-  <li>
-   rwfkinwvio
-  </li>
-</ul>
-
 
 
   </div>;

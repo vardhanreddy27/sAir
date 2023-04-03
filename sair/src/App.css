@@ -101,3 +101,15 @@ hr{
     --bs-btn-disabled-bg: #e9e100!important;
     --bs-btn-disabled-border-color: #e9e100!important;
 }
+.nav_img{
+    padding-left: 15px;
+}
+.logo-text{
+    padding-left: 3px;
+    font-family: roboto !important;
+    font-weight: bold;
+    font-size: 22px;
+}
+.button-nav{
+    border-radius: 100px !important;
+}

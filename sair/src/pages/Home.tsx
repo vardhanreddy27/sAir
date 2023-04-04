@@ -16,7 +16,6 @@ import Shops from "./Shops";
 import TrackOrders from "./TrackOrders";
 import Wishlist from "./Wishlist";
 import Support from "./Support";
-import Login from "./Login";
 import Signup from "./Signup";
 
 function Home() {
@@ -26,7 +25,6 @@ function Home() {
   const [isFour, setIsFour] = useState(false);
   const [isFive, setIsFive] = useState(false);
   const [isSix, setIsSix] = useState(false);
-  const [isSeven, setIsSeven] = useState(false);
   const [isEight, setIsEight] = useState(false);
   const handleClick = () => {
     setIsActive(true);
@@ -35,7 +33,6 @@ function Home() {
     setIsFour(false);
     setIsFive(false);
     setIsSix(false);
-    setIsSeven(false);
     setIsEight(false);
   };
   const handleClick1 = () => {
@@ -45,7 +42,6 @@ function Home() {
     setIsFour(false);
     setIsFive(false);
     setIsSix(false);
-    setIsSeven(false);
     setIsEight(false);
   };
   const handleClick2 = () => {
@@ -55,7 +51,6 @@ function Home() {
     setIsFour(false);
     setIsFive(false);
     setIsSix(false);
-    setIsSeven(false);
     setIsEight(false);
   };
   const handleClick3 = () => {
@@ -65,7 +60,6 @@ function Home() {
     setIsFour(true);
     setIsFive(false);
     setIsSix(false);
-    setIsSeven(false);
     setIsEight(false);
   };
   const handleClick4 = () => {
@@ -75,7 +69,6 @@ function Home() {
     setIsFour(false);
     setIsFive(true);
     setIsSix(false);
-    setIsSeven(false);
     setIsEight(false);
   };
   const handleClick5 = () => {
@@ -85,7 +78,6 @@ function Home() {
     setIsFour(false);
     setIsFive(false);
     setIsSix(true);
-    setIsSeven(false);
     setIsEight(false);
   };
   const handleClick6 = () => {
@@ -95,7 +87,6 @@ function Home() {
     setIsFour(false);
     setIsFive(false);
     setIsSix(false);
-    setIsSeven(true);
     setIsEight(false);
   };
   const handleClick7 = () => {
@@ -105,7 +96,6 @@ function Home() {
     setIsFour(false);
     setIsFive(false);
     setIsSix(false);
-    setIsSeven(false);
     setIsEight(true);
   };
 
@@ -191,18 +181,7 @@ function Home() {
                 <p className="trending">Trending</p>
               </div>
               <hr />
-              <button
-                type="button"
-                className={
-                  isSeven
-                    ? "btn btn-lg btn-primary btn-block"
-                    : "btn btn-lg btn-block"
-                }
-                onClick={handleClick6}
-              >
-                <RiUserReceivedLine className="menuicon" />
-                Login
-              </button>{" "}
+              
               <button
                 type="button"
                 className={
@@ -213,8 +192,8 @@ function Home() {
                 onClick={handleClick7}
               >
                 <AiOutlineUserAdd className="menuicon" />
-                Signup
-              </button>{" "}
+               Login / Signup
+              </button>
             </nav>
           </div>
         </div>
@@ -229,9 +208,7 @@ function Home() {
             <Wishlist />
           ) : isSix ? (
             <Support />
-          ) : isSeven ? (
-            <Login />
-          ) : isEight ? (
+          )  : isEight ? (
             <Signup />
           ) : (
             <HeroBanner />

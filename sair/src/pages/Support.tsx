@@ -5,7 +5,7 @@ function Support() {
     <div className="  stick support3 ">
       <h3 className="text-center su">
         <br />
-        Hi,how can we help you?
+        Hi, how can we help you?
       </h3>
       <div className="row myd">
         <div className="col-3 m-4 card">

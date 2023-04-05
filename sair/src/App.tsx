@@ -12,8 +12,7 @@ import Signup from "./pages/Signup";
 import "bootstrap/dist/css/bootstrap.css";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-function App() {
+function App(): JSX.Element {
   return (
     <>
       <BrowserRouter>

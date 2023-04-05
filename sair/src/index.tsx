@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
+import Popper from "popper.js";
 const container = document.getElementById("root")!;
 const root = createRoot(container);
 root.render(

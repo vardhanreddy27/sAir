@@ -66,6 +66,62 @@ background-color: aqua;
     position: relative;
    
 }
+.trys{
+    padding-right: 1rem!important;
+}
+.mlp{
+    margin-left: -15px!important;
+    height: 73px;
+
+}
+.myd{
+    justify-content: center!important;
+    margin-top: 20px!important;
+}.myd1{
+    justify-content: center!important;
+}
+.card:hover {
+    transform: scale(1.1);
+  }
+  .card {
+    transition: transform 0.5s;
+  }
+  
+.simg{
+    height: 73px;
+    margin-left: 10px!important;
+}.simg4{
+    height: 73px;
+}.imgmap{
+    height: 64px;
+    margin-left: 10px!important;
+    margin-bottom: 10px!important;
+}.rimg{
+
+        height: 98px;
+        margin-left: -5px!important;
+    }
+
+.sutxt{
+    margin-left: 12px!important;
+    margin-right: -26px!important;
+}
+.su{
+    margin-bottom: 0px!important;
+    margin-right: 58px!important;
+
+}
+.sec{
+    margin-bottom: 0px!important;
+
+}
+.support{
+    top: 70px;
+    position: relative;
+}.support3{
+    top: 60px;
+    position: relative;
+}
 .form-control{
     margin: 15px!important;
 }
@@ -95,7 +151,8 @@ hr{
 }
 .bgcolor{
     background-color: rgb(246, 241, 233)!important;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   
 }
 .OfferCard {

@@ -14,7 +14,7 @@ function Signup() {
             </div>
 
             <form>
-              <div className="form-group pe-5 ps-5 code">
+              <div className="form-group code">
                 <span className="prefix">+91</span>
                 <input
                   type="mobile"

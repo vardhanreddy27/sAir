@@ -228,6 +228,8 @@ hr{
 .code{
     display: flex!important;
     flex-direction: row!important;
+    padding-left: 21%!important;
+    padding-right: 21%!important;
 }
 .prefix{
     

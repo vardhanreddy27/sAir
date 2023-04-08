@@ -18,7 +18,7 @@ import Wishlist from "./Wishlist";
 import Support from "./Support";
 import Signup from "./Signup";
 
-function Home() {
+function Test() {
   const [isActive, setIsActive] = useState(true);
   const [isSecond, setIsSecond] = useState(false);
   const [isThree, setIsThree] = useState(false);
@@ -103,15 +103,16 @@ function Home() {
     <div className="fluid-container">
       <Navbar />
       <div className="row">
-        <div className="col-2 menu leftmenu hidden-mobile">
-          <div className="fluid-container fixed">
-            <nav className="nav flex-column p-2">
-              <button
+        <div className="col-2 sticky  hidden-mobile">
+          <div className="menu">
+            <div className="d-grid ">
+   
+            <button
                 type="button"
                 className={
                   isActive
-                    ? "btn btn-lg btn-primary btn-block"
-                    : "btn btn-lg btn-block"
+                    ? "btn btn-primary sidemenu myt"
+                    : "btn sidemenu myt"
                 }
                 onClick={handleClick}
               >
@@ -119,24 +120,12 @@ function Home() {
                   <AiFillHome className="menuicon" /> Home
                 </Link>
               </button>
-              <button
-                type="button"
-                className={
-                  isSecond
-                    ? "btn btn-lg btn-primary btn-block"
-                    : "btn btn-lg btn-block"
-                }
-                onClick={handleClick1}
-              >
-                <TbDiscount2 className="menuicon" />
-                Best Offers
-              </button>
-              <button
+                       <button
                 type="button"
                 className={
                   isThree
-                    ? "btn btn-lg btn-primary btn-block"
-                    : "btn btn-lg btn-block"
+                    ? "btn btn-primary sidemenu"
+                    : "btn sidemenu"
                 }
                 onClick={handleClick2}
               >
@@ -147,19 +136,19 @@ function Home() {
                 type="button"
                 className={
                   isFour
-                    ? "btn btn-lg btn-primary btn-block"
-                    : "btn btn-lg btn-block"
+                    ? "btn btn-primary sidemenu"
+                    : "btn sidemenu"
                 }
                 onClick={handleClick3}
               >
                 <SiOpenstreetmap className="menuicon" /> Track Orders
-              </button>{" "}
+              </button> 
               <button
                 type="button"
                 className={
                   isFive
-                    ? "btn btn-lg btn-primary btn-block"
-                    : "btn btn-lg btn-block"
+                    ? "btn btn-primary sidemenu"
+                    : "btn sidemenu"
                 }
                 onClick={handleClick4}
               >
@@ -169,31 +158,31 @@ function Home() {
                 type="button"
                 className={
                   isSix
-                    ? "btn btn-lg btn-primary btn-block"
-                    : "btn btn-lg btn-block"
+                    ? "btn btn-primary sidemenu"
+                    : "btn sidemenu"
                 }
                 onClick={handleClick5}
               >
                 <BiSupport className="menuicon" /> Support
               </button>
+              <hr />
               <div className="OfferCard">
                 <img src="./shoe.png" className="product" alt="shoe" />
                 <p className="trending">Trending</p>
               </div>
-              <hr />
               <button
                 type="button"
                 className={
                   isEight
-                    ? "btn btn-lg btn-primary btn-block"
-                    : "btn btn-lg btn-block"
+                    ? "btn btn-primary sign sidemenu"
+                    : "btn sidemenu sign"
                 }
                 onClick={handleClick7}
               >
                 <AiOutlineUserAdd className="menuicon" />
                 Login / Signup
               </button>
-            </nav>
+            </div>
           </div>
         </div>
         <div className="col-10">
@@ -218,4 +207,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Test;

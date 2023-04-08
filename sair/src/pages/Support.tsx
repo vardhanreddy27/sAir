@@ -1,5 +1,4 @@
 import React from "react";
-
 function Support() {
   return (
     <div className="  stick support3 ">
@@ -9,12 +8,16 @@ function Support() {
       </h3>
       <div className="row myd">
         <div className="col-3 m-4 card">
-          {" "}
           <a href="">
             <div className="shadow-lg pl-4 pt-4 pb-4 rounded">
               <div className="row p-2">
                 <div className="col-4">
-                  <img src="./orders.png" className="simg" alt="orders" />
+                  <img
+                    src="./orders.png"
+                    loading="lazy"
+                    className="simg"
+                    alt="orders"
+                  />
                 </div>
                 <div className="col-8 sutxt">
                   Your Orders
@@ -31,7 +34,12 @@ function Support() {
             <div className="shadow-lg pl-4 pt-4 rounded">
               <div className="row p-2">
                 <div className="col-4">
-                  <img src="./return.png" className="rimg" alt="return" />
+                  <img
+                    src="./return.png"
+                    loading="lazy"
+                    className="rimg"
+                    alt="return"
+                  />
                 </div>
                 <div className="col-8 sutxt">
                   Returns and Refunds
@@ -50,7 +58,12 @@ function Support() {
             <div className="shadow-lg pl-4 pt-4 pb-4 rounded">
               <div className="row p-2">
                 <div className="col-4">
-                  <img src="./map.png" className="imgmap" alt="map" />
+                  <img
+                    src="./map.png"
+                    loading="lazy"
+                    className="imgmap"
+                    alt="map"
+                  />
                 </div>
                 <div className="col-8 sutxt">
                   Manage Addresses
@@ -70,7 +83,12 @@ function Support() {
             <div className="shadow-lg pl-4 pt-4 pb-4 trys rounded">
               <div className="row p-2">
                 <div className="col-4">
-                  <img src="./profile.png" className="mlp" alt="profile" />
+                  <img
+                    src="./profile.png"
+                    loading="lazy"
+                    className="mlp"
+                    alt="profile"
+                  />
                 </div>
                 <div className="col-8 sutxt">
                   Account Settings
@@ -87,7 +105,12 @@ function Support() {
             <a href="">
               <div className="row p-2">
                 <div className="col-4">
-                  <img src="./chat.png" className="simg4" alt="chat" />
+                  <img
+                    src="./chat.png"
+                    loading="lazy"
+                    className="simg4"
+                    alt="chat"
+                  />
                 </div>
                 <div className="col-8 sutxt">
                   Chat with us
@@ -104,7 +127,12 @@ function Support() {
             <a href="">
               <div className="row p-2">
                 <div className="col-4">
-                  <img src="./call.png" className="simg" alt="orders" />
+                  <img
+                    src="./call.png"
+                    loading="lazy"
+                    className="simg"
+                    alt="orders"
+                  />
                 </div>
                 <div className="col-8 sutxt">
                   Call us directly

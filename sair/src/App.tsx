@@ -9,6 +9,7 @@ import Wishlist from "./pages/Wishlist";
 import Support from "./pages/Support";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Test from "./pages/Test";
 import "bootstrap/dist/css/bootstrap.css";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -18,7 +19,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/" element={<Test />}></Route>
           <Route path="/bestoffers" element={<BestOffers />}></Route>
           <Route path="/shops" element={<Shops />}></Route>
           <Route path="/trackorders" element={<TrackOrders />}></Route>

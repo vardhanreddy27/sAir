@@ -30,7 +30,8 @@ background-color: aqua;
 }
 .menu{
     border-right: 2px solid rgba(0, 0, 0, 0.075);
-    top: 60px;
+    height: 600%;
+    top: 52%;
     position: relative!important;
 }
 .fixed{
@@ -74,6 +75,11 @@ background-color: aqua;
     height: 73px;
 
 }
+@media (max-width: 1190px) {
+    .hidden-mobile {
+      display: none!important;
+    }
+  }
 .myd{
     justify-content: center!important;
     margin-top: 20px!important;
@@ -138,8 +144,8 @@ form .form-control:focus{
     box-shadow: none!important;
   }
 .btn:focus, .btn:active {
-    outline: none !important;
-    box-shadow: none !important;
+    outline: none!important;
+    box-shadow: none!important;
   }
   
 .ht{
@@ -156,24 +162,26 @@ hr{
   
 }
 .OfferCard {
-    width: 148px;
-    height: 90px;
-    margin-left: 2px;
+    width: 72%;
+    height: 157%;
+    margin-left: 6%;
     background: rgb(233 225 0);
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 5%;
+
 }
     .product{
-        width: 118%!important;
-        margin-left: -26px;
-        margin-top: -29px;
+        width: 116%!important;
+        margin-left: -16%;
+        margin-top: -41%;
+    
     }    
     .trending{
-        margin-top: -133px;
-        margin-left: 81px;
-    font-size: small;
-    font-weight: 700;
-    color: #0c0c0cb5;
+        margin-top: -74%;
+        margin-left: 60%;
+        font-size: small;
+        font-weight: 700;
+        color: #0c0c0cb5;
 }
 .btn-primary {
     --bs-btn-color: #000000!important;
@@ -183,15 +191,21 @@ hr{
     --bs-btn-hover-bg: #e9e100!important;
     --bs-btn-hover-border-color: #e9e100!important;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
-    --bs-btn-active-color: #000000!important;
+    --bs-btn-active-color: #e9e100!important;
     --bs-btn-active-bg: #e9e100!important;
     --bs-btn-active-border-color: #e9e100!important;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #000000!important;
     --bs-btn-disabled-bg: #e9e100!important;
     --bs-btn-disabled-border-color: #e9e100!important;
 }
-
+.btn:focus, a:focus
+{
+         outline:none!important;
+}
+.btn:focus
+{
+         outline: none!important;
+         box-shadow: none!important;
+}
 .line{
     padding-left: 20px;
     margin-left: 62px;
@@ -231,3 +245,33 @@ hr{
     border-top-right-radius: 0.5rem!important;
     border-bottom-right-radius: 0.5rem!important;
 }
+
+  #root{
+    overflow-x: clip!important;
+  }
+  .sticky{
+    position: sticky!important;
+    top: 15px!important;
+    height: 85px!important;
+  }
+  .sidemenu{
+    margin: 5%;
+    padding: 3%!important;
+    margin-left: 5%!important;
+
+  }
+
+  .btn{
+    width: 74%!important;
+  }
+  .sign{
+    margin-top: 29%!important;
+  }  .myt{margin-top: 14%!important;}
+  
+ 
+button.btn:focus {
+    border-width: 0!important;
+  }
+  .btn{
+        border-width: 0!important;
+      }

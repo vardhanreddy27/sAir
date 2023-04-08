@@ -3,7 +3,8 @@ function Support() {
   return (
     <div className="  stick support3 ">
       <h3 className="text-center su">
-        <br />
+      <br />
+      <br />
         Hi, how can we help you?
       </h3>
       <div className="row myd">
@@ -137,7 +138,7 @@ function Support() {
                 <div className="col-8 sutxt">
                   Call us directly
                   <p className="form-text sec">
-                    our friendly team is here to help
+                    our friendly team is <br />here to help
                   </p>
                 </div>
               </div>

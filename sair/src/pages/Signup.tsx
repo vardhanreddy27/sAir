@@ -3,17 +3,17 @@ import { FcGoogle } from "react-icons/fc";
 
 function Signup() {
   return (
-    <div className="fluid-container stick top">
+    <div className="stick top">
       <div className="row ht">
         <div className="col-5 bgcolor text-center">
           <div className="pt-5 pl-5 pr-5">
-            <h3 className="">Welcome back!</h3>
+           
+
+            <form> <h3 className=" mt-5">Welcome back!</h3>
             <div className="form-text mb-4">
               To keep connected with us,<br></br> please login with your mobile
               number
             </div>
-
-            <form>
               <div className="form-group code">
                 <span className="prefix">+91</span>
                 <input
@@ -23,7 +23,7 @@ function Signup() {
                   placeholder="Mobile number"
                 />
               </div>
-              <div className="form-group pe-5 ps-5">
+              <div className="form-group ">
                 <button
                   type="submit"
                   className="btn btn-lg brs btn-primary btn-block form-control mar text-center"
@@ -33,7 +33,7 @@ function Signup() {
               </div>
             </form>
             <hr className="loginhr" />
-            <div className="form-group pe-5 ps-5 ">
+            <div className="form-group ">
               <button
                 type="submit"
                 className="btn brs btn-lg border btn-block bg-white form-control mar text-center "
@@ -46,11 +46,11 @@ function Signup() {
         <div className="col-7 text-center">
           <div className="container pt-5 pl-5 pr-5">
             <form>
-              <h3 className="">Create an account</h3>
+              <h3 className=""><br></br>Create an account</h3>
               <div className="form-text mb-4">
                 One account for all your needs
               </div>
-              <div className="form-group pe-5 ps-5">
+              <div className="form-group pe-5 myform">
                 <input
                   type="text"
                   className="bg-light form-control"
@@ -58,7 +58,7 @@ function Signup() {
                   placeholder="Your name"
                 />
               </div>
-              <div className="form-group pe-5 ps-5">
+              <div className="form-group pe-5 myform">
                 <input
                   type="email"
                   className="bg-light form-control"
@@ -66,7 +66,7 @@ function Signup() {
                   placeholder="Email"
                 />
               </div>
-              <div className="form-group pe-5 ps-5">
+              <div className="form-group pe-5 myform">
                 <input
                   type="mobile"
                   className="bg-light form-control"
@@ -74,7 +74,7 @@ function Signup() {
                   placeholder="Mobile number"
                 />
               </div>
-              <div className="form-group pe-5 ps-5">
+              <div className="form-group mycode">
                 <button
                   type="submit"
                   className="btn btn-lg btn-primary btn-block form-control text-center"
@@ -84,7 +84,7 @@ function Signup() {
               </div>
             </form>
             <hr className="line "></hr>
-            <div className="form-group pe-5 ps-5">
+            <div className="form-group myc2">
               <button
                 type="submit"
                 className="btn btn-lg border btn-block form-control text-center "

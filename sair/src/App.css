@@ -30,8 +30,6 @@ background-color: aqua;
 }
 .menu{
     border-right: 2px solid rgba(0, 0, 0, 0.075);
-    height: 600%;
-    top: 52%;
     position: relative!important;
 }
 .fixed{
@@ -63,7 +61,7 @@ background-color: aqua;
 }.stick{
     height: 509px!important;
 }
-.top{top:60px!important;
+.top{
     position: relative;
    
 }
@@ -82,7 +80,6 @@ background-color: aqua;
   }
 .myd{
     justify-content: center!important;
-    margin-top: 20px!important;
 }.myd1{
     justify-content: center!important;
 }
@@ -92,7 +89,9 @@ background-color: aqua;
   .card {
     transition: transform 0.5s;
   }
-  
+  .myform{
+    padding-left: 4%!important;
+  }
 .simg{
     height: 73px;
     margin-left: 10px!important;
@@ -125,7 +124,7 @@ background-color: aqua;
     top: 70px;
     position: relative;
 }.support3{
-    top: 60px;
+
     position: relative;
 }
 .form-control{
@@ -149,17 +148,18 @@ form .form-control:focus{
   }
   
 .ht{
-    height: 100%;
+    height: 94vh;
+    
 }
+
 hr{
     width: 100%!important;
     margin-top: 25px!important;
 }
 .bgcolor{
     background-color: rgb(246, 241, 233)!important;
+    height: 106%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  
 }
 .OfferCard {
     width: 72%;
@@ -207,10 +207,10 @@ hr{
          box-shadow: none!important;
 }
 .line{
-    padding-left: 20px;
-    margin-left: 62px;
-    width: 81%!important;
-
+    margin-left: 44px;
+    width: 86.7%!important;
+    margin-top: 13px!important;
+    margin-bottom: 2%!important;
 }
 .mar{
     margin-top: 7px!important;
@@ -220,16 +220,17 @@ hr{
     border-radius: 0%!important;
 }
 .loginhr{
-    padding-left: 20px;
-    margin-left: 62px;
-    width: 70%!important;
+    margin-left: 61px;
+    width: 73%!important;
+    margin-top: 13px!important;
+    margin-bottom: 13px!important;
 
 }
 .code{
     display: flex!important;
     flex-direction: row!important;
-    padding-left: 21%!important;
-    padding-right: 21%!important;
+    padding-left: 13%!important;
+    padding-right: 13%!important;
 }
 .prefix{
     
@@ -255,6 +256,7 @@ hr{
     position: sticky!important;
     top: 15px!important;
     height: 85px!important;
+   
   }
   .sidemenu{
     margin: 5%;
@@ -277,3 +279,16 @@ button.btn:focus {
   .btn{
         border-width: 0!important;
       }
+      .mycode{
+        margin-left: -9%;
+        margin-right: -10%;
+        margin-top: -2.5%!important;
+        margin-bottom: 0px!important;
+    
+      }
+      .myc2{
+        margin-left: -8%;
+    margin-right: -10%;
+
+      }
+     

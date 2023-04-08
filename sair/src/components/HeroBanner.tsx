@@ -2,6 +2,7 @@ import React from "react";
 
 function HeroBanner() {
   return (
+<<<<<<< HEAD
     <div className="mt-5 pt-5 ">
       <div className="row">
         What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
@@ -76,6 +77,50 @@ function HeroBanner() {
         which looks reasonable. The generated Lorem Ipsum is therefore always
         free from repetition, injected humour, or non-characteristic words e
       </div>
+=======
+    <div className="hero p-5 stick ">
+      <div className="row">
+        <div className="col-4">
+          <h1>good morning vishnu</h1>
+        </div>
+        <div className="col-4">map</div>
+        <div className="col-4">
+          {" "}
+          <div className="dropdown">
+            <button
+              className="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Dropdown button
+            </button>
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li>
+                <a className="dropdown-item" href="#">
+                  Action
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Another action
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
+              </li>
+            </ul>
+          </div>
+          <button type="button" className="btn btn-info">
+            filter
+          </button>
+        </div>
+      </div>
+      home content here..
+>>>>>>> dev
     </div>
   );
 }

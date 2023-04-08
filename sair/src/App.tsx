@@ -13,8 +13,7 @@ import Test from "./pages/Test";
 import "bootstrap/dist/css/bootstrap.css";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-function App() {
+function App(): JSX.Element {
   return (
     <>
       <BrowserRouter>

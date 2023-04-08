@@ -170,6 +170,11 @@ function Test() {
                 <img src="./shoe.png" className="product" alt="shoe" />
                 <p className="trending">Trending</p>
               </div>
+<<<<<<< HEAD
+=======
+              <hr />
+              
+>>>>>>> dev
               <button
                 type="button"
                 className={
@@ -180,9 +185,15 @@ function Test() {
                 onClick={handleClick7}
               >
                 <AiOutlineUserAdd className="menuicon" />
+<<<<<<< HEAD
                 Login / Signup
               </button>
             </div>
+=======
+               Login / Signup
+              </button>
+            </nav>
+>>>>>>> dev
           </div>
         </div>
         <div className="col-10">
@@ -196,7 +207,11 @@ function Test() {
             <Wishlist />
           ) : isSix ? (
             <Support />
+<<<<<<< HEAD
           ) : isEight ? (
+=======
+          )  : isEight ? (
+>>>>>>> dev
             <Signup />
           ) : (
             <HeroBanner />

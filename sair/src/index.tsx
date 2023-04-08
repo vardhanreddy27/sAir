@@ -9,7 +9,10 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 import Popper from "popper.js";
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev
 =======
 >>>>>>> dev
 const container = document.getElementById("root")!;

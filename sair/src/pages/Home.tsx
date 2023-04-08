@@ -174,6 +174,9 @@ function Test() {
 =======
               <hr />
               
+<<<<<<< HEAD
+>>>>>>> dev
+=======
 >>>>>>> dev
               <button
                 type="button"
@@ -186,10 +189,13 @@ function Test() {
               >
                 <AiOutlineUserAdd className="menuicon" />
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Login / Signup
               </button>
             </div>
 =======
+=======
+>>>>>>> dev
                Login / Signup
               </button>
             </nav>
@@ -208,7 +214,11 @@ function Test() {
           ) : isSix ? (
             <Support />
 <<<<<<< HEAD
+<<<<<<< HEAD
           ) : isEight ? (
+=======
+          )  : isEight ? (
+>>>>>>> dev
 =======
           )  : isEight ? (
 >>>>>>> dev

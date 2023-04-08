@@ -76,11 +76,14 @@ background-color: aqua;
 
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (max-width: 1190px) {
     .hidden-mobile {
       display: none!important;
     }
   }
+=======
+>>>>>>> dev
 =======
 >>>>>>> dev
 .myd{
@@ -148,8 +151,13 @@ form .form-control:focus{
   }
 .btn:focus, .btn:active {
 <<<<<<< HEAD
+<<<<<<< HEAD
     outline: none!important;
     box-shadow: none!important;
+=======
+    outline: none !important;
+    box-shadow: none !important;
+>>>>>>> dev
 =======
     outline: none !important;
     box-shadow: none !important;
@@ -206,6 +214,7 @@ hr{
     --bs-btn-disabled-border-color: #e9e100!important;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .btn:focus, a:focus
 {
          outline:none!important;
@@ -215,6 +224,9 @@ hr{
          outline: none!important;
          box-shadow: none!important;
 }
+=======
+
+>>>>>>> dev
 =======
 
 >>>>>>> dev
@@ -241,8 +253,11 @@ hr{
     display: flex!important;
     flex-direction: row!important;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-left: 21%!important;
     padding-right: 21%!important;
+=======
+>>>>>>> dev
 =======
 >>>>>>> dev
 }
@@ -261,6 +276,7 @@ hr{
 }.brs1{
     border-top-right-radius: 0.5rem!important;
     border-bottom-right-radius: 0.5rem!important;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -293,6 +309,9 @@ button.btn:focus {
   .btn{
         border-width: 0!important;
       }
+=======
+}
+>>>>>>> dev
 =======
 }
 >>>>>>> dev

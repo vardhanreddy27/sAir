@@ -4,6 +4,7 @@ function HeroBanner() {
   return (
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div className="mt-5 pt-5 ">
       <div className="row">
         What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
@@ -81,6 +82,8 @@ function HeroBanner() {
 =======
 =======
 >>>>>>> dev
+=======
+>>>>>>> dev
     <div className="hero p-5 stick ">
       <div className="row">
         <div className="col-4">
@@ -124,6 +127,9 @@ function HeroBanner() {
       </div>
       home content here..
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> dev
+=======
 >>>>>>> dev
 =======
 >>>>>>> dev

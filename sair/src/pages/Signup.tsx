@@ -16,7 +16,11 @@ function Signup() {
             <form>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               <div className="form-group code">
+=======
+              <div className="form-group pe-5 ps-5 code">
+>>>>>>> dev
 =======
               <div className="form-group pe-5 ps-5 code">
 >>>>>>> dev

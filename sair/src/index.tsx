@@ -10,7 +10,10 @@ import "bootstrap/dist/js/bootstrap.js";
 import Popper from "popper.js";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev
 =======
 >>>>>>> dev
 =======

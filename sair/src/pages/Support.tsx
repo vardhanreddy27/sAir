@@ -10,6 +10,10 @@ function Support() {
         <div className="col-3 m-4 card">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+          {" "}
+>>>>>>> dev
 =======
           {" "}
 >>>>>>> dev
@@ -22,12 +26,16 @@ function Support() {
                 <div className="col-4">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <img
                     src="./orders.png"
                     loading="lazy"
                     className="simg"
                     alt="orders"
                   />
+=======
+                  <img src="./orders.png" className="simg" alt="orders" />
+>>>>>>> dev
 =======
                   <img src="./orders.png" className="simg" alt="orders" />
 >>>>>>> dev
@@ -52,12 +60,16 @@ function Support() {
                 <div className="col-4">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <img
                     src="./return.png"
                     loading="lazy"
                     className="rimg"
                     alt="return"
                   />
+=======
+                  <img src="./return.png" className="rimg" alt="return" />
+>>>>>>> dev
 =======
                   <img src="./return.png" className="rimg" alt="return" />
 >>>>>>> dev
@@ -84,12 +96,16 @@ function Support() {
                 <div className="col-4">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <img
                     src="./map.png"
                     loading="lazy"
                     className="imgmap"
                     alt="map"
                   />
+=======
+                  <img src="./map.png" className="imgmap" alt="map" />
+>>>>>>> dev
 =======
                   <img src="./map.png" className="imgmap" alt="map" />
 >>>>>>> dev
@@ -117,12 +133,16 @@ function Support() {
                 <div className="col-4">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <img
                     src="./profile.png"
                     loading="lazy"
                     className="mlp"
                     alt="profile"
                   />
+=======
+                  <img src="./profile.png" className="mlp" alt="profile" />
+>>>>>>> dev
 =======
                   <img src="./profile.png" className="mlp" alt="profile" />
 >>>>>>> dev
@@ -147,12 +167,16 @@ function Support() {
                 <div className="col-4">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <img
                     src="./chat.png"
                     loading="lazy"
                     className="simg4"
                     alt="chat"
                   />
+=======
+                  <img src="./chat.png" className="simg4" alt="chat" />
+>>>>>>> dev
 =======
                   <img src="./chat.png" className="simg4" alt="chat" />
 >>>>>>> dev
@@ -177,12 +201,16 @@ function Support() {
                 <div className="col-4">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <img
                     src="./call.png"
                     loading="lazy"
                     className="simg"
                     alt="orders"
                   />
+=======
+                  <img src="./call.png" className="simg" alt="orders" />
+>>>>>>> dev
 =======
                   <img src="./call.png" className="simg" alt="orders" />
 >>>>>>> dev

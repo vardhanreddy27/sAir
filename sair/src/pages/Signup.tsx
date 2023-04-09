@@ -6,7 +6,7 @@ function Signup() {
     <div className="stick top">
       <div className="row ht">
         <div className="col-5 bgcolor text-center">
-          <div className="pt-5 pl-5 pr-5">
+          <div className=" pl-5 pt-5 ji pr-5">
            
 
             <form> <h3 className=" mt-5">Welcome back!</h3>
@@ -44,7 +44,7 @@ function Signup() {
           </div>
         </div>
         <div className="col-7 text-center">
-          <div className="container pt-5 pl-5 pr-5">
+          <div className="container jii pt-5 pl-5 pr-5">
             <form>
               <h3 className=""><br></br>Create an account</h3>
               <div className="form-text mb-4">

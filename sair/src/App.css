@@ -31,7 +31,14 @@ background-color: aqua;
 .menu{
     border-right: 2px solid rgba(0, 0, 0, 0.075);
     position: relative!important;
+    height: 91vh;
 }
+@media only screen and (min-width: 1400px) {
+    .ji{
+        margin-top: 32%!important;
+    }.jii{
+        margin-top: 24%!important;
+    }}
 .fixed{
     position: fixed!important;
 }

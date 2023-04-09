@@ -111,8 +111,8 @@ function Test() {
                 type="button"
                 className={
                   isActive
-                    ? "btn btn-primary sidemenu myt"
-                    : "btn sidemenu myt"
+                    ? "btn3 btn btn-primary sidemenu myt"
+                    : "btn3 btn sidemenu myt"
                 }
                 onClick={handleClick}
               >
@@ -124,8 +124,8 @@ function Test() {
                 type="button"
                 className={
                   isThree
-                    ? "btn btn-primary sidemenu"
-                    : "btn sidemenu"
+                    ? "btn3 btn btn-primary sidemenu"
+                    : "btn3 btn sidemenu"
                 }
                 onClick={handleClick2}
               >
@@ -136,8 +136,8 @@ function Test() {
                 type="button"
                 className={
                   isFour
-                    ? "btn btn-primary sidemenu"
-                    : "btn sidemenu"
+                    ? "btn3 btn btn-primary sidemenu"
+                    : "btn3 btn sidemenu"
                 }
                 onClick={handleClick3}
               >
@@ -147,8 +147,8 @@ function Test() {
                 type="button"
                 className={
                   isFive
-                    ? "btn btn-primary sidemenu"
-                    : "btn sidemenu"
+                    ? "btn3 btn btn-primary sidemenu"
+                    : "btn3 btn sidemenu"
                 }
                 onClick={handleClick4}
               >
@@ -158,8 +158,8 @@ function Test() {
                 type="button"
                 className={
                   isSix
-                    ? "btn btn-primary sidemenu"
-                    : "btn sidemenu"
+                    ? "btn3 btn btn-primary sidemenu"
+                    : "btn3 btn sidemenu"
                 }
                 onClick={handleClick5}
               >
@@ -174,8 +174,8 @@ function Test() {
                 type="button"
                 className={
                   isEight
-                    ? "btn btn-primary sign sidemenu"
-                    : "btn sidemenu sign"
+                    ? "btn3 btn btn-primary sign sidemenu"
+                    : "btn3 btn sidemenu sign"
                 }
                 onClick={handleClick7}
               >

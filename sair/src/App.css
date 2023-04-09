@@ -38,7 +38,21 @@ background-color: aqua;
         margin-top: 32%!important;
     }.jii{
         margin-top: 24%!important;
-    }}
+    }
+    .su{
+        margin-bottom: 7%!important;
+    margin-right: 58px!important;
+    margin-top: 8%!important;
+    }
+    .sidemenu {
+        margin: 5%;
+        padding: 13%!important;
+        margin-left: 5%!important;
+    }
+
+
+
+}
 .fixed{
     position: fixed!important;
 }
@@ -119,8 +133,9 @@ background-color: aqua;
     margin-right: -26px!important;
 }
 .su{
-    margin-bottom: 0px!important;
-    margin-right: 58px!important;
+    margin-bottom: 0px;
+    margin-right: 58px;
+    margin-top: 2%;
 
 }
 .sec{
@@ -169,7 +184,7 @@ hr{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .OfferCard {
-    width: 72%;
+    width: 87%;
     height: 157%;
     margin-left: 6%;
     background: rgb(233 225 0);
@@ -184,8 +199,8 @@ hr{
     
     }    
     .trending{
-        margin-top: -74%;
-        margin-left: 60%;
+        margin-top: -69%;
+    margin-left: 66%;
         font-size: small;
         font-weight: 700;
         color: #0c0c0cb5;
@@ -267,13 +282,15 @@ hr{
   }
   .sidemenu{
     margin: 5%;
-    padding: 3%!important;
+    padding: 3%;
     margin-left: 5%!important;
 
   }
 
   .btn{
     width: 74%!important;
+  }  .btn3{
+    width: 89%!important;
   }
   .sign{
     margin-top: 29%!important;

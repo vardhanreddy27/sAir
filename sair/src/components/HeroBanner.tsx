@@ -3,47 +3,130 @@ import React from "react";
 function HeroBanner() {
   return (
     <div className="hero p-5 stick ">
+      <div className="top-name-section">
+        <h3>Good Morning Khan</h3>
+      </div>
+
       <div className="row">
-        <div className="col-4">
-          <h1>good morning vishnu</h1>
+        <div className="col-5 top-sec-card1 shadow">
+          <img src="" />
         </div>
-        <div className="col-4">map</div>
-        <div className="col-4">
-          {" "}
-          <div className="dropdown">
-            <button
-              className="btn btn-secondary dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton1"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Dropdown button
-            </button>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li>
-                <a className="dropdown-item" href="#">
-                  Action
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
-                  Another action
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
-                  Something else here
-                </a>
-              </li>
-            </ul>
-          </div>
-          <button type="button" className="btn btn-info">
-            filter
-          </button>
+
+        <div className="col-5 top-sec-card2 shadow">
+          <img src="" />
         </div>
       </div>
-      home content here..
+
+
+
+      <div className="shop-bottom-section">
+<div className="d-flex flex-row ">
+
+        <div className="shop-card-item shadow">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaucN9zuzGy4HmGLlO3S50Ih9iq9KYhz0nAQ&usqp=CAU" alt=""
+            className="shop-card-image"
+          />
+          <h1 className="shop-card-name">Iphone 14</h1>
+          <p className="deal-card">Reliance Mart</p>
+          <p className="shop-card-price">Rs 81,000</p>
+        </div>
+
+        <div className="shop-card-item shadow">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaucN9zuzGy4HmGLlO3S50Ih9iq9KYhz0nAQ&usqp=CAU" alt=""
+            className="shop-card-image"
+          />
+          <h1 className="shop-card-name">Iphone 14</h1>
+          <p className="deal-card">Reliance Mart</p>
+          <p className="shop-card-price">Rs 81,000</p>
+
+        </div>
+
+        <div className="shop-card-item shadow">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaucN9zuzGy4HmGLlO3S50Ih9iq9KYhz0nAQ&usqp=CAU" alt=""
+            className="shop-card-image"
+          />
+          <h1 className="shop-card-name">Iphone 14</h1>
+          <p className="deal-card">Reliance Mart</p>
+          <p className="shop-card-price">Rs 81,000</p>
+        </div>
+
+        <div className="shop-card-item shadow">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaucN9zuzGy4HmGLlO3S50Ih9iq9KYhz0nAQ&usqp=CAU" alt=""
+            className="shop-card-image"
+          />
+          <h1 className="shop-card-name">Iphone 14</h1>
+          <p className="deal-card">Reliance Mart</p>
+          <p className="shop-card-price">Rs 81,000</p>
+        </div>
+        
+
+        <div className="shop-card-item shadow">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaucN9zuzGy4HmGLlO3S50Ih9iq9KYhz0nAQ&usqp=CAU" alt=""
+            className="shop-card-image"
+          />
+          <h1 className="shop-card-name">Iphone 14</h1>
+          <p className="deal-card">Reliance Mart</p>
+          <p className="shop-card-price">Rs 81,000</p>
+        </div>
+      </div>
+      <div className="d-flex flex-row ">
+        <div className="shop-card-item shadow">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaucN9zuzGy4HmGLlO3S50Ih9iq9KYhz0nAQ&usqp=CAU" alt=""
+            className="shop-card-image"
+          />
+          <h1 className="shop-card-name">Iphone 14</h1>
+          <p className="deal-card">Reliance Mart</p>
+          <p className="shop-card-price">Rs 81,000</p>
+        </div>
+
+        <div className="shop-card-item shadow">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaucN9zuzGy4HmGLlO3S50Ih9iq9KYhz0nAQ&usqp=CAU" alt=""
+            className="shop-card-image"
+          />
+          <h1 className="shop-card-name">Iphone 14</h1>
+          <p className="deal-card">Reliance Mart</p>
+          <p className="shop-card-price">Rs 81,000</p>
+        </div>
+
+        <div className="shop-card-item shadow">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaucN9zuzGy4HmGLlO3S50Ih9iq9KYhz0nAQ&usqp=CAU" alt=""
+            className="shop-card-image"
+          />
+          <h1 className="shop-card-name">Iphone 14</h1>
+          <p className="deal-card">Reliance Mart</p>
+          <p className="shop-card-price">Rs 81,000</p>
+        </div>
+
+        <div className="shop-card-item shadow">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaucN9zuzGy4HmGLlO3S50Ih9iq9KYhz0nAQ&usqp=CAU" alt=""
+            className="shop-card-image"
+          />
+          <h1 className="shop-card-name">Iphone 14</h1>
+          <p className="deal-card">Reliance Mart</p>
+          <p className="shop-card-price">Rs 81,000</p>
+        </div>
+
+        <div className="shop-card-item shadow">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaucN9zuzGy4HmGLlO3S50Ih9iq9KYhz0nAQ&usqp=CAU" alt=""
+            className="shop-card-image"
+          />
+          <h1 className="shop-card-name">Iphone 14</h1>
+          <p className="deal-card">Reliance Mart</p>
+          <p className="shop-card-price">Rs 81,000</p>
+        </div>
+      </div>
+      </div>
+
     </div>
   );
 }

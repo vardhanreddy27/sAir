@@ -284,18 +284,46 @@ hr{
 
 
 
-/* produts css */
+/* Hero banner  css */
+
+.offer-carousel-section{
+    border-radius: 100px;
+    height: 400px;
+    width: 800px;
+    margin: 40px 400px 15px 100px;
+}
+
+
+.image-heading{
+    text-align: center;
+}
+
+.image-card{
+    height: 130px;
+    width: 130px;
+    margin: 8px 30px 8px 8px;
+    border-radius: 100px;
+}
+
+
+.item-name{
+    margin: 35px 15px 20px 15px;
+    cursor: pointer;
+}
+
+
+
 
 .top-name-section{
     margin-left: 18px;
-
+    padding-bottom: 40px;
 }
 
 .top-sec-card1{
     border-radius: 5px;
     height: 300px;
     width: 500px;
-    margin-left: 15px;
+    margin-left: 80px;
 }
 
 

@@ -27,7 +27,7 @@ function Navbar() {
   return <div className=" row navbar">
 <div className="col-1"><img src="./delivery.png" className="logoimage d-inline"/> <h2 className="logo  d-inline">sAir</h2></div>
 <div className="col-9">
-<div className="input-group mb-3">
+<div className="input-group input-groups mb-3">
   <input type="text" className="removep form-control " placeholder="Search for products, shops and more" aria-label="Recipient's username" aria-describedby="basic-addon2" />
   <div className="input-group-append lo">
     <button className="input-group-text test"id="basic-addon2"><BsSearch  /></button>

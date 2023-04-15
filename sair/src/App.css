@@ -39,7 +39,9 @@ background-color: aqua;
     height: 89.5vh;
 }
 @media only screen and (min-width: 1400px) {
-  .cart{
+ .tmy{
+    margin-left: 21%!important;
+ } .cart{
     margin-bottom: 8%!important;
     margin-left: 43%;
   }  .menu {
@@ -129,10 +131,10 @@ background-color: aqua;
 }.myd1{
     justify-content: center!important;
 }
-.card:hover {
+.cards:hover {
     transform: scale(1.1);
   }
-  .card {
+  .cards {
     transition: transform 0.5s;
   }
   .myform{
@@ -381,7 +383,7 @@ button.btn:focus {
     padding-bottom: 13%;
 
 }
-.input-group{    margin-left: 5.5%;}
+.input-groups{    margin-left: 5.5%;}
 .input-group-text {
     display: flex;
     align-items: center;
@@ -464,3 +466,96 @@ padding: 8%;
     border-top-right-radius: 0.5rem!important;
 
 }
+.form-control:focus {
+    color: #212529;
+    background-color: none!important;
+
+    box-shadow: none!important;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: #ced4da;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+.tracksearch{
+    
+    background-color: #e9e100!important;
+    margin-right: 52px!important;
+    border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+    height: 99.11%!important;
+    width: 44%!important;;
+}
+.sf{
+    margin: 0px;
+}
+.searchi{
+    margin-bottom: 4px;
+    color: black;
+}.top{
+    top: 46px!important;
+}
+.tracksearchs {
+    background-color: #e9e100!important;
+    margin-right: 52px!important;
+    border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+    height: 99.11%!important;
+    width: 100%!important;
+}
+.searchs{
+    margin-left: 37%;
+    margin-bottom: 4px;
+    color: black;
+}
+.cardm{
+    --bs-card-border-width:0px!important;
+    background-color: #e9e100!important;
+}
+.cardmm{
+    --bs-card-border-width:0px!important;
+
+}
+.myend{
+    text-align: end;
+}
+.tmy{
+    margin-bottom:0px!important;
+    margin-left: 30%;
+}
+.bold{
+    font-weight: bold!important;
+}
+.cbutton{background-color: #e9ecef;
+    border: 0px solid;
+    color: #3184fd;
+    border-radius: 5px;
+    width: 50%;
+    height: 65%;
+    margin-top: -1px;}
+    .progress{
+        height: 5px!important;
+    }
+    .progress-bar-animated {
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    thead, tbody, tfoot, tr, td, th {
+         border-color: none!important;
+     border-style:none!important;
+        border-width: 0!important;}

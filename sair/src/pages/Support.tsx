@@ -11,7 +11,7 @@ function Support() {
         Hi, how can we help you?
       </h3>
       <div className="row myd">
-        <div className="col-3 m-4 card">
+        <div className="col-3 m-4 cards card">
           <a href="">
             <div className="shadow-lg pl-4 pt-4 pb-4 rounded">
               <div className="row p-2">
@@ -32,7 +32,7 @@ function Support() {
             </div>
           </a>
         </div>
-        <div className="col-3 m-4 card">
+        <div className="col-3 m-4 cards card">
           {" "}
           <a href="">
             <div className="shadow-lg pl-4 pt-4 rounded">
@@ -56,7 +56,7 @@ function Support() {
             </div>
           </a>
         </div>
-        <div className="col-3 m-4 card">
+        <div className="col-3 m-4 cards card">
           {" "}
           <a href="">
             <div className="shadow-lg pl-4 pt-4 pb-4 rounded">
@@ -81,7 +81,7 @@ function Support() {
         </div>
       </div>
       <div className="row myd1">
-      <div className="col-3 m-4 card">
+      <div className="col-3 m-4 cards card">
 <a href=""> 
  <div className="shadow-lg pl-4 pt-4 pb-4 rounded">
 
@@ -105,7 +105,7 @@ function Support() {
   
   </div>  </a>
 </div>
-        <div className="col-3 m-4 card">
+        <div className="col-3 m-4 cards card">
 <a href=""> 
  <div className="shadow-lg pl-4 pt-4 pb-4 rounded">
 
@@ -130,7 +130,7 @@ function Support() {
   </div>  </a>
 </div>
       
-        <div className="col-3 m-4 card">
+        <div className="col-3 m-4 cards card">
           <div className="shadow-lg pl-4 pt-4 pb-4 rounded">
             <a href="">
               <div className="row p-2">

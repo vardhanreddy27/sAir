@@ -1,104 +1,249 @@
 import React from "react";
+import { BsSearch } from "react-icons/bs";
+import ProgressBar from 'react-bootstrap/ProgressBar';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+import Table from 'react-bootstrap/Table';
 
 function TrackOrders() {
-  return <div className="p-5 mt-5">What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
-  and typesetting industry. Lorem Ipsum has been the industry's standard
-  dummy text ever since the 1500s, when an unknown printer took a galley
-  of type and scrambled it to make a type specimen book. It has survived
-  not only five centuries, but also the leap into electronic typesetting,
-  remaining essentially unchanged. It was popularised in the 1960s with
-  the release of Letraset sheets containinstickyg Lorem Ipsum passages, and more
-  recently with desktop publishing software like Aldus PageMaker including
-  versions of Lorem Ipsum. Why do we use it? It is a long established fact
-  that a reader will be distracted by the readable content of a page when
-  looking at its layout. The point of using Lorem Ipsum is thatnd typesetting industry. Lorem Ipsum has been the industry's standard
-  dummy text ever since the 1500s, when an unknown printer took a galley
-  of type and scrambled it to make a type specimen book. It has survived
-  not only five centuries, but also the leap into electronic typesetting,
-  remaining essentially unchanged. It was popularised in the 1960s with
-  the release of Letraset sheets containinstickyg Lorem Ipsum passages, and more
-  recently with desktop publishing software like Aldus PageMaker including
-  versions of Lorem Ipsum. Why do we use it? It is a long established fact
-  that a reader will be distracted by the readable content of a page when
-  looking at its layout. The point of using Lorem Ipsum is thatnd typesetting industry. Lorem Ipsum has been the industry's standard
-  dummy text ever since the 1500s, when an unknown printer took a galley
-  of type and scrambled it to make a type specimen book. It has survived
-  not only five centuries, but also the leap into electronic typesetting,
-  remaining essentially unchanged. It was popularised in the 1960s with
-  the release of Letraset sheets containinstickyg Lorem Ipsum passages, and more
-  recently with desktop publishing software like Aldus PageMaker including
-  versions of Lorem Ipsum. Why do we use it? It is a long established fact
-  that a reader will be distracted by the readable content of a page when
-  looking at its layout. The point of using Lorem Ipsum is thatnd typesetting industry. Lorem Ipsum has been the industry's standard
-  dummy text ever since the 1500s, when an unknown printer took a galley
-  of type and scrambled it to make a type specimen book. It has survived
-  not only five centuries, but also the leap into electronic typesetting,
-  remaining essentially unchanged. It was popularised in the 1960s with
-  the release of Letraset sheets containinstickyg Lorem Ipsum passages, and more
-  recently with desktop publishing software like Aldus PageMaker including
-  versions of Lorem Ipsum. Why do we use it? It is a long established fact
-  that a reader will be distracted by the readable content of a page when
-  looking at its layout. The point of using Lorem Ipsum is that it has a
-  more-or-less normal distribution of letters, as opposed to using
-  'Content here, content here', making it look like readable English. Ma
-  not only five centuries, but also the leap into electronic typesetting,
-  remaining essentially unchanged. It was popularised in the 1960s with
-  the release of Letraset sheets containing Lorem Ipsum passages, and more
-  recently with desktop publishing software like Aldus PageMaker including
-  versions of Lorem Ipsum. Why do we use it? It is a long established fact
-  that a reader will be distracted by the readable content of a page when
-  looking at its layout. The point of using Lorem Ipsum is that it has a
-  more-or-less normal distribution of letters, as opposed to using
-  'Content here, content here', making it look like readable English. Ma
-  not only five centuries, but also the leap into electronic typesetting,
-  remaining essentially unchanged. It was popularised in the 1960s with
-  the release of Letraset sheets containing Lorem Ipsum passages, and more
-  recently with desktop publishing software like Aldus PageMaker including
-  versions of Lorem Ipsum. Why do we use it? It is a long established fact
-  that a reader will be distracted by the readable content of a page when
-  looking at its layout. The point of using Lorem Ipsum is that it has a
-  more-or-less normal distribution of letters, as opposed to using
-  'Content here, content here', making it look like readable English. Ma
-  not only five centuries, but also the leap into electronic typesetting,
-  remaining essentially unchanged. It was popularised in the 1960s with
-  the release of Letraset sheets containing Lorem Ipsum passages, and more
-  recently with desktop publishing software like Aldus PageMaker including
-  versions of Lorem Ipsum. Why do we use it? It is a long established fact
-  that a reader will be distracted by the readable content of a page when
-  looking at its layout. The point of using Lorem Ipsum is that it has a
-  more-or-less normal distribution of letters, as opposed to using
-  'Content here, content here', making it look like readable English. Many
-  desktop publishing packages and web page editors now use Lorem Ipsum as
-  their default model text, and a search for 'lorem ipsum' will uncover
-  many web sites still in their infancy. Various versions have evolved
-  over the years, sometimes by accident, sometimes on purpose (injected
-  humour and the like). Where does it come from? Contrary to popular
-  belief, Lorem Ipsum is not simply random text. It has roots in a piece
-  of classical Latin literature from 45 BC, making it over 2000 years old.
-  Richard McClintock, a Latin professor at Hampden-Sydney College in
-  Virginia, looked up one of the more obscure Latin words, consectetur,
-  from a Lorem Ipsum passage, and going through the cites of the word in
-  classical literature, discovered the undoubtable source. Lorem Ipsum
-  comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-  Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
-  This book is a treatise on the theory of ethics, very popular during the
-  Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-  amet..", comes from a line in section 1.10.32. The standard chunk of
-  Lorem Ipsum used since the 1500s is reproduced below for those
-  interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
-  Malorum" by Cicero are also reproduced in their exact original form,
-  accompanied by English versions from the 1914 translation by H. Rackham.
-  Where can I get some? There are many variations of passages of Lorem
-  Ipsum available, but the majority have suffered alteration in some form,
-  by injected humour, or randomised words which don't look even slightly
-  believable. If you are going to use a passage of Lorem Ipsum, you need
-  to be sure there isn't anything embarrassing hidden in the middle of
-  text. All the Lorem Ipsum generators on the Internet tend to repeat
-  predefined chunks as necessary, making this the first true generator on
-  the Internet. It uses a dictionary of over 200 Latin words, combined
-  with a handful of model sentence structures, to generate Lorem Ipsum
-  which looks reasonable. The generated Lorem Ipsum is therefore always
-  free from repetition, injected humour, or non-characteristic words e</div>;
+  return <div className="">
+    <div className="row">
+    <div className="col-6 p-5 mt-5 bg-light">
+ <h4 className="mb-4">Tracking Delivery</h4>
+    <div className="input-group mb-3">
+  <input type="text" className="form-control sf " placeholder="Search Order's" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+  <div className="input-group-append">
+    <button className="btn btn-outline-secondary tracksearchs" type="button"><BsSearch className="searchs" /></button>
+  </div>
+</div>
+<div className="row">
+<a type="button" ><div className="card cardm ">
+  <div className="card-body">
+    <div className="row">
+    <div className="col-6"><p>Order ID: <span className="bold">#AD345JK75</span></p></div>
+    <div className="col-6 myend"><button type="button"  className="cbutton" ><p className="">In-Transit</p></button></div>
+    </div>
+    <div className="row">
+    <div className="col-4"><p>Picked up</p></div>
+    <div className="col-4"><p className="text-center">In-Transit</p></div>
+    <div className="col-4"><p className="myend">Delivered</p></div></div>
+    <div className="row"><ProgressBar className="progress mb-2" animated now={60} />
+ 
+</div>
+<table className="table table-hover text-center">
+  <thead>
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Status</th>
+      <th scope="col">Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td>Picked up</td>
+      <td>10:43 AM</td>
+    </tr>
+    <tr>
+      <td scope="row">sony tv</td>
+      <td>In-Transit</td>
+      <td>11:23 AM</td>
+    </tr> <tr>
+      <th scope="row"></th>
+      <td>Delivered</td>
+      <td>--:-- </td>
+    </tr>
+
+  </tbody>
+</table>
+  
+     </div>
+</div></a>
+</div>
+<div className="row mt-3">
+<a type="button" ><div className="card cardmm ">
+  <div className="card-body">
+    <div className="row">
+    <div className="col-6"><p>Order ID: <span className="bold">#AD345JK75</span></p></div>
+    <div className="col-6 myend"><button type="button"  className="cbutton" ><p className="">In-Transit</p></button></div>
+    </div>
+    <div className="row">
+    <div className="col-4"><p>Picked up</p></div>
+    <div className="col-4"><p className="text-center">In-Transit</p></div>
+    <div className="col-4"><p className="myend">Delivered</p></div></div>
+    <div className="row"><ProgressBar className="progress mb-2" animated now={15} />
+ 
+</div>
+<table className="table table-hover text-center">
+  <thead>
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Status</th>
+      <th scope="col">Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td>Picked up</td>
+      <td>10:43 AM</td>
+    </tr>
+    <tr>
+      <td scope="row">sony tv</td>
+      <td>In-Transit</td>
+      <td>--:--</td>
+    </tr> <tr>
+      <th scope="row"></th>
+      <td>Delivered</td>
+      <td>--:-- </td>
+    </tr>
+
+  </tbody>
+</table>
+  
+     </div>
+</div></a></div><div className="row mt-3">
+<div className="card cardmm ">
+<a type="button" ><div className="card-body">
+    <div className="row">
+    <div className="col-6"><p>Order ID: <span className="bold">#AD345JK75</span></p></div>
+    <div className="col-6 myend"><button type="button"  className="cbutton" ><p className="">In-Transit</p></button></div>
+    </div>
+    <div className="row">
+    <div className="col-4"><p>Picked up</p></div>
+    <div className="col-4"><p className="text-center">In-Transit</p></div>
+    <div className="col-4"><p className="myend">Delivered</p></div></div>
+    <div className="row"><ProgressBar className="progress mb-2" animated now={30} />
+ 
+</div>
+<table className="table table-hover text-center">
+  <thead>
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Status</th>
+      <th scope="col">Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td>Picked up</td>
+      <td>10:43 AM</td>
+    </tr>
+    <tr>
+      <td scope="row">sony tv</td>
+      <td>In-Transit</td>
+      <td>11:23 AM</td>
+    </tr> <tr>
+      <th scope="row"></th>
+      <td>Delivered</td>
+      <td>--:-- </td>
+    </tr>
+
+  </tbody>
+</table>
+  
+     </div></a>
+</div></div><div className="row mt-3">
+<a type="button" ><div className="card cardmm ">
+  <div className="card-body">
+    <div className="row">
+    <div className="col-6"><p>Order ID: <span className="bold">#AD345JK75</span></p></div>
+    <div className="col-6 myend"><button type="button"  className="cbutton" ><p className="">In-Transit</p></button></div>
+    </div>
+    <div className="row">
+    <div className="col-4"><p>Picked up</p></div>
+    <div className="col-4"><p className="text-center">In-Transit</p></div>
+    <div className="col-4"><p className="myend">Delivered</p></div></div>
+    <div className="row"><ProgressBar className="progress mb-2" animated now={40} />
+ 
+</div>
+<table className="table table-hover text-center">
+  <thead>
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Status</th>
+      <th scope="col">Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td>Picked up</td>
+      <td>10:43 AM</td>
+    </tr>
+    <tr>
+      <td scope="row">sony tv</td>
+      <td>In-Transit</td>
+      <td>11:23 AM</td>
+    </tr> <tr>
+      <th scope="row"></th>
+      <td>Delivered</td>
+      <td>--:-- </td>
+    </tr>
+
+  </tbody>
+</table>
+  
+     </div>
+</div></a></div>
+    </div>
+    <div className="col-6 p-5 top sticky">
+    <p>Order ID: <span className="bold">#AD345JK75</span></p>
+    <div className="brs ">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61812.525976457706!2d78.78834335686905!3d14.46843952803116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb37210d4f26f87%3A0xaf158859a18a02a0!2sKadapa%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1681564351174!5m2!1sen!2sin" width="102%" height="30%"  loading="lazy"></iframe>
+    </div><p className="mt-3">Main Info</p>
+    <Tabs
+      defaultActiveKey="#"
+      id="justify-tab-example"
+      className="mb-3"
+      justify
+    >
+      <Tab eventKey="#" title="Order Details">
+      <Table bordered hover size="sm">
+      <thead>
+        <tr>
+          <th>Order Items</th>
+          <th>Quantity</th>
+          <th><p className="tmy">Seller</p></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sony TV</td>
+          <td><p className="tmy">2</p></td>
+          <td><p className="tmy">sono vision</p></td>
+        </tr>
+        <tr>
+          <td>Cooler</td>
+          <td><p className="tmy">1</p></td>
+          <td><p className="tmy">Bajaj</p></td>
+        </tr>
+   
+      </tbody>
+    </Table>
+      </Tab>
+      <Tab eventKey="" title="Delivery Information">
+      <div className="row">
+  <div className="col-5">Rider Name</div>
+  <div className="col-1"> - </div>
+  <div className="col-6">Suresh kumar</div>
+  </div>
+  <div className="row mt-2">
+  <div className="col-5">Your Location</div>
+  <div className="col-1"> - </div>
+  <div className="col-6">1/380-5-1,maruthi nagar,kadapa,516002</div>
+  </div>  <div className="row mt-2">
+  <div className="col-5">Rider Number</div>
+  <div className="col-1"> - </div>
+  <div className="col-6">986 6531 011</div>
+  </div>
+      </Tab>
+    </Tabs>
+
+    </div>
+      </div>
+  </div>;
 }
 
 export default TrackOrders;

@@ -1,4 +1,9 @@
-a{
+.simg44{
+
+    height: 61px!important;
+    margin-top: 12px!important;
+
+}a{
     text-decoration: none!important;
     color:black!important;
 }.row{--bs-gutter-x: 0rem!important;}
@@ -28,22 +33,42 @@ background-color: aqua;
     height: 60px;
     width: 100%;
 }
-.menu{
+.menu {
     border-right: 2px solid rgba(0, 0, 0, 0.075);
     position: relative!important;
-    height: 91vh;
+    height: 89.5vh;
 }
 @media only screen and (min-width: 1400px) {
+  .cart{
+    margin-bottom: 8%!important;
+    margin-left: 43%;
+  }  .menu {
+        border-right: 2px solid rgba(0, 0, 0, 0.075);
+        position: relative!important;
+        height: 92.7vh;
+    }  .lo{
+        margin-top: 0.09%;
+    padding-bottom: 0.1rem;
+    }
+    .OfferCard {
+        width: 87%;
+        height: 157%;
+        margin-left: 6%;
+        background: rgb(233 225 0);
+        border-radius: 10px;
+        margin-top: 11%;
+    }
     .ji{
         margin-top: 32%!important;
     }.jii{
         margin-top: 24%!important;
     }
     .su{
-        margin-bottom: 7%!important;
-    margin-right: 58px!important;
-    margin-top: 8%!important;
+        margin-bottom: 3%!important;
+    margin-right: 0px!important;
+    margin-top: 6%!important;
     }
+   
     .sidemenu {
         margin: 5%;
         padding: 13%!important;
@@ -80,10 +105,7 @@ background-color: aqua;
     border-radius: 10px!important;
 }
 .col-10{
-    position: relative!important;
-   
-}.stick{
-    height: 509px!important;
+    position: relative!important; 
 }
 .top{
     position: relative;
@@ -136,7 +158,7 @@ background-color: aqua;
     margin-right: -26px!important;
 }
 .su{
-    margin-bottom: 0px;
+    margin-bottom: 5%;
     margin-right: 58px;
     margin-top: 2%;
 
@@ -151,10 +173,23 @@ background-color: aqua;
 }.support3{
 
     position: relative;
+}.removep{
+    margin-bottom:0%!important;
+    margin-right:0!important;
+    margin-left: 4.5%!important;
+    margin-top: 0.3%!important;
+
+
 }
 .form-control{
-    margin: 15px!important;
+    margin: 15px;
 }
+.mym{
+    margin: 15px!important;
+
+
+}
+
 .buttoncolor{
     background-color: #ced4da!important;
     color:white!important;
@@ -192,13 +227,15 @@ hr{
     margin-left: 6%;
     background: rgb(233 225 0);
     border-radius: 10px;
-    margin-top: 5%;
+    margin-top: 9%;
 
 }
     .product{
         width: 116%!important;
         margin-left: -16%;
         margin-top: -41%;
+        top: 16%;
+        position: relative;
     
     }    
     .trending{
@@ -257,6 +294,13 @@ hr{
     padding-left: 13%!important;
     padding-right: 13%!important;
 }
+.loc{
+    width: 12%!important;
+    margin-left: 7px!important;
+    border: white 0px solid!important;
+    margin-top: 3px;
+}
+
 .prefix{
     
     background-color: #c3c3c3;
@@ -274,15 +318,19 @@ hr{
     border-bottom-right-radius: 0.5rem!important;
 }
 
+
   #root{
     overflow-x: clip!important;
   }
   .sticky{
     position: sticky!important;
-    top: 15px!important;
-    height: 85px!important;
+    top: 2%!important;
+    height: 9%!important;
+
    
   }
+
+
   .sidemenu{
     margin: 5%;
     padding: 3%;
@@ -295,9 +343,11 @@ hr{
   }  .btn3{
     width: 89%!important;
   }
-  .sign{
-    margin-top: 29%!important;
-  }  .myt{margin-top: 14%!important;}
+  .sign {
+    margin-top: 35%!important;
+    position: relative;
+
+}  .myt{margin-top: 14%!important;}
   
  
 button.btn:focus {
@@ -319,3 +369,98 @@ button.btn:focus {
 
       }
      
+.logo{
+    margin-top: 0.7%;
+    position: absolute;
+    font-family: fantasy;
+}
+.logoimage{
+    
+    width: 40%;
+    margin-left: 49%;
+    padding-bottom: 13%;
+
+}
+.input-group{    margin-left: 5.5%;}
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.63rem 1rem!important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    position: relative!important;
+ top: 6.6%!important;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0rem!important;
+}
+.accordionstyle{
+padding: 8%;
+}
+.accordion-item {
+    border: 0px solid;
+    border-bottom: #d6dade 1px solid!important;
+}
+.accordion-button:focus {
+    box-shadow: none!important;
+    border-color: rgba(0,0,0,.125)!important;
+}
+.accordion-button:not(.collapsed) {
+    color: #000000!important;
+    background-color: #e9e100!important;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #424242!important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23black'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")!important; 
+
+
+}
+.cart {
+    margin-bottom: 11%;
+    margin-left: 43%;
+}
+.bannerimg{
+    width: 100%;
+    border-radius: 35px;
+}
+.shop-card-image{
+    width: 70%;
+    height: 150px;
+}
+.shop-card-name{
+    margin-bottom: 0px!important;
+}
+.deal-card{
+    margin-bottom: 0px!important;
+}
+.shop-card-price{
+    margin-bottom: 0px!important;
+
+}
+.carousel-inner{
+    border-radius: 35px;
+}
+
+.image-heading{
+    text-align: center;
+}
+
+.image-card{
+    height: 130px;
+    width: 130px;
+    margin: 8px 8px 8px 8px;
+    border-radius: 100px;
+   
+}
+.js{
+    justify-content: center;
+}
+.test{
+    border-bottom-right-radius: 0.5rem!important;
+    border-top-right-radius: 0.5rem!important;
+
+}

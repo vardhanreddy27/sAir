@@ -18,7 +18,7 @@ import Wishlist from "./Wishlist";
 import Support from "./Support";
 import Signup from "./Signup";
 
-function Test() {
+function Home() {
   const [isActive, setIsActive] = useState(true);
   const [isSecond, setIsSecond] = useState(false);
   const [isThree, setIsThree] = useState(false);
@@ -104,6 +104,7 @@ function Test() {
       <Navbar />
       <div className="row">
         <div className="col-2 sticky  hidden-mobile">
+
           <div className="menu">
             <div className="d-grid mt-5">
    
@@ -207,4 +208,4 @@ function Test() {
   );
 }
 
-export default Test;
+export default Home;

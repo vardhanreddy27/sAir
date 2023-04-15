@@ -77,7 +77,7 @@ function Signup() {
               <div className="form-group mycode">
                 <button
                   type="submit"
-                  className="btn btn-lg btn-primary btn-block form-control text-center"
+                  className="btn btn-lg btn-primary btn-block form-control mym text-center"
                 >
                   Continue
                 </button>
@@ -87,7 +87,7 @@ function Signup() {
             <div className="form-group myc2">
               <button
                 type="submit"
-                className="btn btn-lg border btn-block form-control text-center "
+                className="btn btn-lg border btn-block form-control mym text-center "
               >
                 <FcGoogle className="google " /> Sign in with google
               </button>

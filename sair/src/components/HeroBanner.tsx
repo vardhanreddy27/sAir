@@ -72,7 +72,7 @@ function HeroBanner() {
           />
           <h5 className="shop-card-name mt-2">Mobile phones</h5>
           <p className="deal-card text-secondary">Oled display</p>
-          <p className="shop-card-price"><p className="d-inline text-success">From ₹ 11,000</p> </p>
+        <p className="d-inline text-success">From ₹ 11,000</p>
         </div>
 
   </div> 
@@ -97,7 +97,7 @@ function HeroBanner() {
           />
           <h5 className="shop-card-name mt-2">BAJAJ Air Cooler</h5>
           <p className="deal-card text-secondary">40% Off</p>
-          <p className="shop-card-price"><p className="d-inline text-success">From ₹ 2,500</p> </p>
+        <p className="d-inline text-success">From ₹ 2,500</p> 
         </div>
 
   </div>
@@ -133,7 +133,7 @@ function HeroBanner() {
           />
           <h5 className="shop-card-name mt-2">Voltas Refrigerator</h5>
           <p className="deal-card text-secondary">60-70 % Off</p>
-          <p className="shop-card-price"><p className="d-inline text-success">From ₹ 11,000</p> </p>
+    <p className="d-inline text-success">From ₹ 11,000</p>
         </div>
 
   </div>
@@ -146,7 +146,7 @@ function HeroBanner() {
           />
           <h5 className="shop-card-name mt-2">Washing Machines</h5>
           <p className="deal-card text-secondary">Best offers</p>
-          <p className="shop-card-price"><p className="d-inline text-success">From ₹ 6,700</p> </p>
+          <p className="d-inline text-success">From ₹ 6,700</p> 
         </div>
 
   </div> 
@@ -159,7 +159,7 @@ function HeroBanner() {
           />
           <h5 className="shop-card-name mt-2">Wifi Router</h5>
           <p className="deal-card">40-60% Off</p>
-          <p className="shop-card-price"><p className="d-inline text-success">From ₹ 1,300</p> </p>
+         <p className="d-inline text-success">From ₹ 1,300</p> 
         </div>
 
   </div>
@@ -260,7 +260,7 @@ function HeroBanner() {
           />
           <h5 className="shop-card-name mt-2">Mobile phones</h5>
           <p className="deal-card text-secondary">Oled display</p>
-          <p className="shop-card-price"><p className="d-inline text-success">From ₹ 11,000</p> </p>
+         <p className="d-inline text-success">From ₹ 11,000</p>
         </div>
 
   </div> 
@@ -285,7 +285,7 @@ function HeroBanner() {
           />
           <h5 className="shop-card-name mt-2">BAJAJ Air Cooler</h5>
           <p className="deal-card text-secondary">40% Off</p>
-          <p className="shop-card-price"><p className="d-inline text-success">From ₹ 2,500</p> </p>
+       <p className="d-inline text-success">From ₹ 2,500</p>
         </div>
 
   </div>
@@ -297,7 +297,7 @@ function HeroBanner() {
           />
           <h5 className="shop-card-name mt-2">SK Fashion Walker</h5>
           <p className="deal-card  text-secondary">Best deal of the day</p>
-          <p className="shop-card-price"><p className="d-inline text-success">From ₹ 500</p> </p>
+       <p className="d-inline text-success">From ₹ 500</p> 
         </div>
 
   </div>
@@ -309,7 +309,7 @@ function HeroBanner() {
           />
           <h5 className="shop-card-name mt-2">Pigeon 500 W Mixer</h5>
           <p className="deal-card  text-secondary">Best sellers</p>
-          <p className="shop-card-price"><p className="d-inline text-success">From ₹ 1,500 </p> </p>
+       <p className="d-inline text-success">From ₹ 1,500 </p> 
         </div>
 
   </div>
@@ -321,7 +321,7 @@ function HeroBanner() {
           />
           <h5 className="shop-card-name mt-2">Voltas Refrigerator</h5>
           <p className="deal-card text-secondary">60-70 % Off</p>
-          <p className="shop-card-price"><p className="d-inline text-success">From ₹ 11,000</p> </p>
+        <p className="d-inline text-success">From ₹ 11,000</p> 
         </div>
 
   </div>
@@ -334,7 +334,7 @@ function HeroBanner() {
           />
           <h5 className="shop-card-name mt-2">Washing Machines</h5>
           <p className="deal-card text-secondary">Best offers</p>
-          <p className="shop-card-price"><p className="d-inline text-success">From ₹ 6,700</p> </p>
+      <p className="d-inline text-success">From ₹ 6,700</p>
         </div>
 
   </div> 
@@ -347,7 +347,7 @@ function HeroBanner() {
           />
           <h5 className="shop-card-name mt-2">Wifi Router</h5>
           <p className="deal-card">40-60% Off</p>
-          <p className="shop-card-price"><p className="d-inline text-success">From ₹ 1,300</p> </p>
+    <p className="d-inline text-success">From ₹ 1,300</p> 
         </div>
 
   </div>

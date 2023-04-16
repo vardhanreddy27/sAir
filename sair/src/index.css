@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.star{
+  height: 129%;
+    width: 65px;
+    color: #e9e100;
+}
+.delete{
+  color: red;
+}
+.addcart{
+  width: 50%!important;
+  text-align: center!important;
+}
+.removeb{  margin-bottom: 0px!important;    font-size: smaller;
+}
+.tableh{
+  margin-top: 90px!important;
+}
+.btn-outline-danger{
+  border: 1px solid!important;
+}
+.wid{
+  width: 35%!important;
+    margin-top: 3%!important;
+}
+.cancle{
+  margin-top: 11px!important;
+}

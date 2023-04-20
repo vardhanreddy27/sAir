@@ -3,7 +3,6 @@ import { FcGoogle } from "react-icons/fc";
 
 function Signup() {
   return (
-    <div className="stick top">
       <div className="row ht">
         <div className="col-5 bgcolor text-center">
           <div className=" pl-5 pt-5 ji pr-5">
@@ -95,7 +94,6 @@ function Signup() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

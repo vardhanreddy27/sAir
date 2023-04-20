@@ -4,7 +4,6 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Table from 'react-bootstrap/Table';
-
 function TrackOrders() {
   return <div className="">
     <div className="row">
@@ -28,8 +27,7 @@ function TrackOrders() {
     <div className="col-4"><p className="text-center">In-Transit</p></div>
     <div className="col-4"><p className="myend">Delivered</p></div></div>
     <div className="row"><ProgressBar className="progress mb-2" animated now={60} />
- 
-</div>
+ </div>
 <table className="table table-hover text-center">
   <thead>
     <tr>
@@ -53,10 +51,8 @@ function TrackOrders() {
       <td>Delivered</td>
       <td>--:-- </td>
     </tr>
-
   </tbody>
 </table>
-  
      </div>
 </div></a>
 </div>
@@ -72,7 +68,6 @@ function TrackOrders() {
     <div className="col-4"><p className="text-center">In-Transit</p></div>
     <div className="col-4"><p className="myend">Delivered</p></div></div>
     <div className="row"><ProgressBar className="progress mb-2" animated now={15} />
- 
 </div>
 <table className="table table-hover text-center">
   <thead>
@@ -92,15 +87,13 @@ function TrackOrders() {
       <td scope="row">sony tv</td>
       <td>In-Transit</td>
       <td>--:--</td>
-    </tr> <tr>
+    </tr><tr>
       <th scope="row"></th>
       <td>Delivered</td>
       <td>--:-- </td>
     </tr>
-
   </tbody>
 </table>
-  
      </div>
 </div></a></div><div className="row mt-3">
 <div className="card cardmm ">
@@ -114,8 +107,7 @@ function TrackOrders() {
     <div className="col-4"><p className="text-center">In-Transit</p></div>
     <div className="col-4"><p className="myend">Delivered</p></div></div>
     <div className="row"><ProgressBar className="progress mb-2" animated now={30} />
- 
-</div>
+ </div>
 <table className="table table-hover text-center">
   <thead>
     <tr>
@@ -139,10 +131,8 @@ function TrackOrders() {
       <td>Delivered</td>
       <td>--:-- </td>
     </tr>
-
   </tbody>
 </table>
-  
      </div></a>
 </div></div><div className="row mt-3">
 <a type="button" ><div className="card cardmm ">
@@ -156,7 +146,6 @@ function TrackOrders() {
     <div className="col-4"><p className="text-center">In-Transit</p></div>
     <div className="col-4"><p className="myend">Delivered</p></div></div>
     <div className="row"><ProgressBar className="progress mb-2" animated now={40} />
- 
 </div>
 <table className="table table-hover text-center">
   <thead>
@@ -181,10 +170,8 @@ function TrackOrders() {
       <td>Delivered</td>
       <td>--:-- </td>
     </tr>
-
   </tbody>
 </table>
-  
      </div>
 </div></a></div>
     </div>
@@ -240,7 +227,6 @@ function TrackOrders() {
   </div>
       </Tab>
     </Tabs>
-
     </div>
       </div>
   </div>;

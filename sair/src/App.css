@@ -567,7 +567,7 @@ input[type="color"]:focus,
             margin: 15px 6px 15px 6px;
             border-radius: 16px;
             background-color: #889397;
-            padding: 20px 50px 20px 15px;
+            padding: 20px px 20px 15px;
         }
 
         .top-heading{

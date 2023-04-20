@@ -4,7 +4,7 @@ function Shops() {
   return (
     <div className="p-5 mt-5">
       <div className="row">
-        <div className="top-container shadow d-flex flex-row">
+        <div className="top-container shadow d-flex flex-row justify-content-end">
           <h1 className="top-heading">Stores</h1>
           <img src="https://freshcart.codescandy.com/assets/images/svg-graphics/store-graphics.svg" alt="cart image" />
         </div>

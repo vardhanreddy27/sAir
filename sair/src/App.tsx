@@ -1,5 +1,4 @@
 import React from "react";
-import { Counter } from "./features/counter/Counter";
 import "./App.css";
 import Home from "./pages/Home";
 import BestOffers from "./pages/BestOffers";
@@ -13,12 +12,13 @@ import "bootstrap/dist/css/bootstrap.css";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/" element={<Home  />}></Route>
           <Route path="/bestoffers" element={<BestOffers />}></Route>
           <Route path="/shops" element={<Shops />}></Route>
           <Route path="/trackorders" element={<TrackOrders />}></Route>
@@ -31,5 +31,4 @@ function App() {
     </>
   );
 }
-
 export default App;

@@ -508,7 +508,7 @@ input[type="color"]:focus,
     margin-bottom: 4px;
     color: black;
 }.top{
-    top: 46px!important;
+    top: 46%!important;
 }
 .tracksearchs {
     background-color: #e9e100!important;

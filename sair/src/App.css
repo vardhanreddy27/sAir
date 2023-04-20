@@ -559,3 +559,39 @@ input[type="color"]:focus,
          border-color: none!important;
      border-style:none!important;
         border-width: 0!important;}
+
+
+
+        /* shops */
+        .top-container{
+            margin: 15px 6px 15px 6px;
+            border-radius: 16px;
+            background-color: #889397;
+            padding: 20px px 20px 15px;
+        }
+
+        .top-heading{
+            padding: 50px 400px 20px 30px;
+        }
+
+        .shops-section{
+            border-radius: 10px;
+            height: 160px;
+            width: 600px;
+            margin: 50px 13px 15px 13px;
+        }
+
+        .shops-text-card{
+            margin: 5px 0px 6px 10px;
+            padding: 10px;
+        }
+        .rounded-circle {
+            border-radius: 50%!important;
+            height: 70px;
+            width: 50px;
+            padding: 20px 3px 5px 5px;
+            margin: 20px 7px 9px 16px;
+        }
+        .recent-viewed-section{
+            margin: 20px 1px 4px 13px;
+        }

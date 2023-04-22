@@ -175,7 +175,7 @@ function TrackOrders() {
      </div>
 </div></a></div>
     </div>
-    <div className="col-6 p-5 top sticky">
+    <div className="col-6 p-5 stickto">
     <p>Order ID: <span className="bold">#AD345JK75</span></p>
     <div className="brs ">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61812.525976457706!2d78.78834335686905!3d14.46843952803116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb37210d4f26f87%3A0xaf158859a18a02a0!2sKadapa%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1681564351174!5m2!1sen!2sin" width="102%" height="30%"  loading="lazy"></iframe>

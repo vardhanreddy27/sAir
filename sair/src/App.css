@@ -183,6 +183,9 @@ background-color: aqua;
 
 
 }
+.tem{
+    margin: 0px!important;
+}
 .form-control{
     margin: 15px;
 }
@@ -315,7 +318,18 @@ hr{
 }
 .brs{
     border-radius: 0.5rem!important;
-}.brs1{
+
+}
+
+.mybt{
+    margin-left: 7px!important;
+    margin-top: 3px;
+    border: white 0px solid!important;
+    background-color: white;
+        margin-right: -5%!important;
+
+}
+.brs1{
     border-top-right-radius: 0.5rem!important;
     border-bottom-right-radius: 0.5rem!important;
 }
@@ -330,6 +344,12 @@ hr{
     height: 9%!important;
 
    
+  }
+  .stickto{
+    position: sticky!important;
+    top: 8%!important;
+    height: 9%!important;
+
   }
 
 

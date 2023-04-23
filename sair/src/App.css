@@ -593,20 +593,22 @@ input[type="color"]:focus,
         .top-heading{
             padding: 50px 400px 20px 30px;
         }
-
+        .shops-name-section{
+            margin-top: 35px;
+            margin-bottom: 25px;
+        }
         .shops-section{
             border-radius: 10px;
             height: 160px;
-            width: 600px;
-            margin: 50px 13px 15px 13px;
+            width: 400px;
+            margin: 24px 13px 15px 13px;
         }
 
         .shops-text-card{
             margin: 5px 0px 6px 10px;
             padding: 10px;
         }
-        .rounded-circle {
-            border-radius: 50%!important;
+        .shops-icons-sec{
             height: 70px;
             width: 50px;
             padding: 20px 3px 5px 5px;

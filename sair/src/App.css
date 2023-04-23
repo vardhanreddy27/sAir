@@ -589,10 +589,28 @@ input[type="color"]:focus,
             background-color: #889397;
             padding: 20px px 20px 15px;
         }
+.mytop{
+    padding-left: 3.6%;
+    padding-top: 2%;
+    padding-right: 3%;
 
-        .top-heading{
-            padding: 50px 400px 20px 30px;
-        }
+}
+.imgh{margin-right: 8%;
+}
+
+.shoptxt{
+    margin: 11%;
+}
+.mytxtshop{
+    
+    display: flex;
+    align-items: center;
+
+}
+   .myshopimg{
+    display: flex;
+    justify-content: center;
+   }
         .shops-name-section{
             margin-top: 35px;
             margin-bottom: 25px;

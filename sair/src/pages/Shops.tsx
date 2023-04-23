@@ -2,16 +2,16 @@ import React from "react";
 
 function Shops() {
   return (
-    <div className="p-5 mt-5">
+    <div className="mytop mt-5">
       <div className="row">
-        <div className="top-container shadow d-flex flex-row justify-content-end">
-          <h1 className="top-heading">Stores</h1>
-          <img src="https://freshcart.codescandy.com/assets/images/svg-graphics/store-graphics.svg" alt="cart image" />
+        <div className="top-container shadow d-flex flex-row">
+          <div className="col-6 mytxtshop"> <h1 className="shoptxt">Stores</h1>
+</div>
+          <div className="col-6 myshopimg">
+                      <img className="imgh" src="https://freshcart.codescandy.com/assets/images/svg-graphics/store-graphics.svg" alt="cart image" />
+</div>
         </div>
       </div>
-
-
-
       <div className="shops-name-section">
         <h4>Electronics</h4>
       <div className="col d-flex flex-row">

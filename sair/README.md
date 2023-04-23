@@ -44,7 +44,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-for pushing code to git 
+for pushing code to git
+
 1. git add .
 2. git commit -m "add cmts here "
 3. git push origin HEAD:vardhan

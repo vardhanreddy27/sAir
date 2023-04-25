@@ -43,3 +43,10 @@ input[type="text"]:focus{
 box-shadow: 00 0px 0px rgba(255, 255, 255, 0.075) inset,00 0 8px rgba(255, 255, 255, 0.6)!important ;
  
  }
+ .mystar{
+  color: #e9e100;
+
+ }
+ .myb{
+  margin-bottom: 5%!important;
+ }

@@ -1,146 +1,29 @@
 import React from "react";
+import { TiStarFullOutline } from "react-icons/ti";
 
 function Shops() {
   return (
-    <div className="mytop mt-5">
+    <div className=" mt-5">
       <div className="row">
         <div className="top-container shadow d-flex flex-row">
-          <div className="col-6 mytxtshop"> <h1 className="shoptxt">Stores</h1>
+          <div className="col-6 mytxtshop"> <h4 className="shoptxt">Stores</h4>
 </div>
           <div className="col-6 myshopimg">
                       <img className="imgh" src="https://freshcart.codescandy.com/assets/images/svg-graphics/store-graphics.svg" alt="cart image" />
 </div>
         </div>
       </div>
-      <div className="shops-name-section">
-        <h4>Electronics</h4>
-      <div className="col d-flex flex-row">
-        <div className="shops-section shadow">
-          <div className=" d-flex flex-row">
-            <div>
-              <img src="electronics.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
-            </div>
-            <div className="shops-text-card">
-              <h6>Reliance digital</h6>
-              <p>GT road Jalandhar</p>
-              <p>4.5⭐</p>
-              <div>
-                <div className="badge text-bg-light border"><span className="text-primary">Delivery in 49 min</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className=" shops-section shadow">
-          <div className="d-flex flex-row">
-            <div>
-              <img src="electric-appliance.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
-            </div>
-            <div className="shops-text-card">
-              <h6>Bajaj Electronics</h6>
-              <p>Trunk road phagwara</p>
-              <p>4.3⭐</p>
-              <div>
-                <div className="badge text-bg-light border"><span className="text-primary">Delivery in 25 min</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div className="shops-section shadow">
-          <div className="d-flex flex-row">
-            <div>
-              <img src="gadgets.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
-            </div>
-            <div className="shops-text-card">
-              <h6>Sonovision</h6>
-              <p>Rajiv Park</p>
-              <p>4.1⭐</p>
-              <div>
-                <div className="badge text-bg-light border"><span className="text-primary">Delivery in 45 min</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      
-      <div className="col d-flex flex-row">
-        <div className=" shops-section shadow">
-          <div className="d-flex flex-row">
-            <div>
-              <img src="grocery-store.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
-            </div>
-            <div className="shops-text-card">
-              <h6>Big C
-              </h6>
-              <p>New Bus stand</p>
-              <p>3.8⭐</p>
-              <div>
-                <div className="badge text-bg-light border"><span className="text-primary">Delivery in 30 min</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className=" shops-section shadow">
-          <div className="d-flex flex-row">
-            <div>
-              <img src="store.png"  alt="" className="shops-icons-sec" />
-            </div>
-            <div className="shops-text-card">
-              <h6>A-one  Mobiles</h6>
-              <p>Opp to Blind School</p>
-              <p>3.6⭐</p>
-              <div>
-                <div className="badge text-bg-light border"><span className="text-primary">Delivery in 55 min</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div className=" shops-section shadow">
-          <div className="d-flex flex-row">
-            <div>
-              <img src="online-payment.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
-            </div>
-            <div className="shops-text-card">
-              <h6>Trends</h6>
-              <p>Trunk road phagwara</p>
-              <p>3.5⭐</p>
-              <div>
-                <div className="badge text-bg-light border"><span className="text-primary">Delivery in 31 min</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-      <div>
-        <h4>Super Markets</h4>
-      <div className="col d-flex flex-row ">
+        <h4 className="m-3 ms-4">Electronics</h4>
+        <div className="col d-flex flex-row ">
         <div className=" shops-section shadow">
           <div className="d-flex flex-row">
             <div>
               <img src="salad.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>E-Grocery Super Market</h6>
-              <p>GT road Jalandhar</p>
-              <p>4.6⭐</p>
+              <p>GT road Jalandhar
+                <br />4.6 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 49 min</span></div>
               </div>
@@ -153,10 +36,10 @@ function Shops() {
             <div>
               <img src="grocery-cart.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>Spencers</h6>
-              <p>Opp to Bus Stand </p>
-              <p>4.2⭐</p>
+              <p>Opp to Bus Stand 
+                <br />4.2 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 25 min</span></div>
               </div>
@@ -170,10 +53,10 @@ function Shops() {
             <div>
               <img src="supermarket.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>DMart</h6>
-              <p>Trunk road phagwara</p>
-              <p>4.0⭐</p>
+              <p>Trunk road phagwara
+                <br />4.0 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 45 min</span></div>
               </div>
@@ -181,6 +64,57 @@ function Shops() {
           </div>
         </div>
       </div>
+
+        <h4 className="m-3 ms-4">Super Markets</h4>
+      <div className="col d-flex flex-row ">
+        <div className=" shops-section shadow">
+          <div className="d-flex flex-row">
+            <div>
+              <img src="salad.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
+            </div>
+            <div className="m-4">
+              <h6>E-Grocery Super Market</h6>
+              <p>GT road Jalandhar
+                <br />4.6 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
+              <div>
+                <div className="badge text-bg-light border"><span className="text-primary">Delivery in 49 min</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" shops-section shadow">
+          <div className="d-flex flex-row">
+            <div>
+              <img src="grocery-cart.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
+            </div>
+            <div className="m-4">
+              <h6>Spencers</h6>
+              <p>Opp to Bus Stand 
+                <br />4.2 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
+              <div>
+                <div className="badge text-bg-light border"><span className="text-primary">Delivery in 25 min</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className=" shops-section shadow">
+          <div className="d-flex flex-row">
+            <div>
+              <img src="supermarket.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
+            </div>
+            <div className="m-4">
+              <h6>DMart</h6>
+              <p>Trunk road phagwara
+                <br />4.0 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
+              <div>
+                <div className="badge text-bg-light border"><span className="text-primary">Delivery in 45 min</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
 
@@ -190,10 +124,10 @@ function Shops() {
             <div>
               <img src="basket.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>More</h6>
-              <p>NGO Colony</p>
-              <p>3.9⭐</p>
+              <p>NGO Colony
+                <br />3.9 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 30 min</span></div>
               </div>
@@ -206,10 +140,10 @@ function Shops() {
             <div>
               <img src="shopping-bag.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>Super K</h6>
-              <p>Apsara circle</p>
-              <p>3.7⭐</p>
+              <p>Apsara circle
+                <br />3.7 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 55 min</span></div>
               </div>
@@ -223,10 +157,10 @@ function Shops() {
             <div>
               <img src="online-payment.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>Bazaar</h6>
-              <p>YV street</p>
-              <p>3.3⭐</p>
+              <p>YV street
+                <br/>3.3 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 31 min</span></div>
               </div>
@@ -234,24 +168,17 @@ function Shops() {
           </div>
         </div>
       </div>
-
-
-
-
-
-
-      <div className="shops-name-section">
-        <h4>Fashion&Beauty</h4>
+        <h4 className="m-3 ms-4">Fashion&Beauty</h4>
       <div className="col d-flex flex-row ">
         <div className=" shops-section shadow">
           <div className="d-flex flex-row">
             <div>
               <img src="beauty-salon.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>Vikas Fashions</h6>
-              <p>Madras road</p>
-              <p>4.8⭐</p>
+              <p>Madras road
+                <br />4.8 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 49 min</span></div>
               </div>
@@ -264,10 +191,10 @@ function Shops() {
             <div>
               <img src="consumption.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>Indian Fashion</h6>
-              <p>YV street</p>
-              <p>4.4⭐</p>
+              <p>YV street
+                <br />4.4 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 25 min</span></div>
               </div>
@@ -281,17 +208,16 @@ function Shops() {
             <div>
               <img src="dress.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>Life Style</h6>
-              <p>RSR Square Mall</p>
-              <p>4.1⭐</p>
+              <p>RSR Square Mall
+                <br />4.1 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 45 min</span></div>
               </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
 
 
@@ -301,10 +227,10 @@ function Shops() {
             <div>
               <img src="boutique.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>Dress Circle</h6>
-              <p>Koti Reddy Circle</p>
-              <p>3.7⭐</p>
+              <p>Koti Reddy Circle
+                <br />3.7 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 30 min</span></div>
               </div>
@@ -317,10 +243,10 @@ function Shops() {
             <div>
               <img src="boutique.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>Unlimited</h6>
-              <p>Opp KFC</p>
-              <p>3.2⭐</p>
+              <p>Opp KFC
+                 <br />3.2 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 55 min</span></div>
               </div>
@@ -334,10 +260,10 @@ function Shops() {
             <div>
               <img src="makeup-pouch.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h5>Lakhme Salon</h5>
-              <p>Beside DC</p>
-              <p>4.0⭐</p>
+              <p>Beside DC 
+                <br />4.0 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 31 min</span></div>
               </div>
@@ -354,9 +280,7 @@ function Shops() {
 
 
 
-      <div className="recent-viewed-card">
-        <h3>Recently Viewed</h3>
-      </div>
+        <h4 className="m-3 ms-4">Recently Viewed</h4>
 
       <div className="col d-flex flex-row ">
         <div className=" shops-section shadow">
@@ -364,10 +288,10 @@ function Shops() {
             <div>
               <img src="boutique.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>Vishal Mart</h6>
-              <p>RS Road</p>
-              <p>3.8⭐</p>
+              <p>RS Road
+                <br />3.8 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 50 min</span></div>
               </div>
@@ -380,10 +304,10 @@ function Shops() {
             <div>
               <img src="fashion.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>Zudio</h6>
-              <p>Trunk road phagwara</p>
-              <p>3.3⭐</p>
+              <p>Trunk road phagwara
+                <br />3.3 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 50 min</span></div>
               </div>
@@ -397,10 +321,10 @@ function Shops() {
             <div>
               <img src="grocery-store.png"  alt="" className="shops-icons-sec icon-shape icon-x1" />
             </div>
-            <div className="shops-text-card">
+            <div className="m-4">
               <h6>Big Basket</h6>
-              <p>Trunk road phagwara</p>
-              <p>4.0⭐</p>
+              <p>Trunk road phagwara
+                <br />4.0 <TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/><TiStarFullOutline className="mystar"/></p>
               <div>
                 <div className="badge text-bg-light border"><span className="text-primary">Delivery in 23 min</span></div>
               </div>

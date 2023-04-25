@@ -617,3 +617,87 @@ input[type="color"]:focus,
         .recent-viewed-section{
             margin: 20px 1px 4px 13px;
         }
+
+
+
+        /*Stores*/
+        .store-login-section {
+            text-align: center;
+            margin: 15% 10% 10% 15%;
+            position: fixed;
+        }
+        .heading{
+            padding: 2%;
+        }
+        .image-section{
+            width: 20%;
+            height: 10%;
+            
+        }
+        
+        .btn-style {
+            border-radius: 8px;
+            font-family: "roboto";
+            font-weight: bold;
+            padding: 6px 12px 6px 12px;
+            background-color: black;
+            color: white;
+            border: 0px;
+        }
+
+
+
+        /*reinnovation of home page */
+        .new-bg-color{
+            background-color:  #FBFFFF!important;
+        }
+        .carousel-slider-section{
+            padding-top: 1%;
+            
+        }
+        .categories-naming-section{
+            margin-top: 37px;
+            border-radius: 50%;
+        }
+        .categories-name-card{
+            margin-left: 3%;
+            margin-top: 1%;
+        }
+        .categories-space{
+            padding: 1% 1% 1% 2%;
+        }
+        .today-deals-card {
+            margin: 2% 5% 0% 3%;
+        }
+
+
+        .deals-section{
+            border-radius: 2%;
+            margin: 2% 2% 2% 2% ;
+        }
+        .deals-image-sec{
+            text-align: center;
+            padding: 15% 15% 15% 15%;
+        }
+        .deals-img-card{
+            text-align: center;
+            height: 100px;
+            width: 100px;
+        }
+        
+
+        .new-arrivals{
+            margin-top: 3%;
+            margin-left: 3%;
+        }
+        .new-arrivals-img{
+            width: 130%;
+        }
+        .personal-grooming{
+            margin-top: 4%;
+            margin-left: 9%;
+        }
+        .newarrivals-img2{
+            width: 220%;
+            height: 40%;
+        }

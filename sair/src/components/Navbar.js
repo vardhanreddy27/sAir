@@ -41,9 +41,9 @@ function Navbar() {
   const [mylocvalue, setMylocvalue] = useState('test');
   function handleSelect(data) {
     setSelectedOptions(data);
-    setMylocvalue(data.value)
-    console.log(mylocvalue);
-    }
+    setMylocvalue(data.value);
+    handleClose();
+      }
   return( 
   <div className=" row navbar">
 <div className="col-1"><img src="./delivery.png" className="logoimage d-inline"/> <h2 className="logo  d-inline">sAir</h2></div>

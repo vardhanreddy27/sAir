@@ -584,10 +584,8 @@ input[type="color"]:focus,
 
         /* shops */
         .top-container{
-            margin: 15px 6px 15px 6px;
             border-radius: 16px;
             background-color: #889397;
-            padding: 20px px 20px 15px;
         }
 .mytop{
     padding-left: 3.6%;
@@ -599,7 +597,7 @@ input[type="color"]:focus,
 }
 
 .shoptxt{
-    margin: 11%;
+    margin: 5%;
 }
 .mytxtshop{
     
@@ -611,10 +609,7 @@ input[type="color"]:focus,
     display: flex;
     justify-content: center;
    }
-        .shops-name-section{
-            margin-top: 35px;
-            margin-bottom: 25px;
-        }
+      
         .shops-section{
             border-radius: 10px;
             height: 160px;
@@ -622,11 +617,7 @@ input[type="color"]:focus,
             margin: 24px 13px 15px 13px;
         }
 
-        .shops-text-card{
-            margin: 5px 0px 6px 10px;
-            padding: 10px;
-        }
-        .shops-icons-sec{
+           .shops-icons-sec{
             height: 70px;
             width: 50px;
             padding: 20px 3px 5px 5px;

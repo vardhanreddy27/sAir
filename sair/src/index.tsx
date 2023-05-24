@@ -9,13 +9,12 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 import Popper from "popper.js";
 
+
 const container = document.getElementById("root")!;
 const root = createRoot(container);
 root.render(
-  <React.StrictMode>
     <Provider store={store}>
       <App />
     </Provider>
-  </React.StrictMode>
 );
 reportWebVitals();

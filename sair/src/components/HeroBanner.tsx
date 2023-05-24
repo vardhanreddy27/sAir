@@ -6,6 +6,7 @@ function HeroBanner() {
   var isMorning;
   var isAfternoon;
   var isEvening;
+
   const today = new Date()
   const curHr = today.getHours()
     if (curHr < 12) {
@@ -47,7 +48,6 @@ function HeroBanner() {
       </div>  <div className="col p-2 text-center">
       <a href="">  <h5 className="text-secondary">Fashion</h5></a>
       </div>
-      
       <div className="col p-2 text-center">
       <a href=""> <h5 className="text-secondary">Accessories</h5></a>
       </div>       <div className="col p-2 text-center">

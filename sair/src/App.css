@@ -80,7 +80,9 @@ background-color: aqua;
     }
 }
 @media only screen and (min-width: 1400px) {
-    .ji{
+    .thismy{
+        margin-left: 10%!important;;
+       } .ji{
         margin-top: 32%!important;
     }.jii{
         margin-top: 24%!important;

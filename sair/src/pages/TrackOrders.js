@@ -5,8 +5,8 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Table from 'react-bootstrap/Table';
 import Notlogin from "../components/Notlogin";
-function TrackOrders() {
-  const isLoggedIn = false;
+function TrackOrders(props) {
+  const isLoggedIn = props.isLoggedIn;
   return <>{
 isLoggedIn ? <div className="row">
 <div className="col-6 p-5 mt-5 bg-light">

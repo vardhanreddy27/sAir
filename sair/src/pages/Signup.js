@@ -1,36 +1,13 @@
-import React from "react";
 import { FcGoogle } from "react-icons/fc";
-
+import React, { useState } from 'react';
+import Mobileotp from "../components/Mobileotp";
 function Signup() {
   return (
       <div className="row ht">
         <div className="col-5 bgcolor text-center">
           <div className=" pl-5 pt-5 ji pr-5">
-           
-
-            <form> <h3 className=" mt-5">Welcome back!</h3>
-            <div className="form-text mb-4">
-              To keep connected with us,<br></br> please login with your mobile
-              number
-            </div>
-              <div className="form-group code">
-                <span className="prefix">+91</span>
-                <input
-                  type="mobile"
-                  className="bg-light form-control mar brs1"
-                  id="mobile"
-                  placeholder="Mobile number"
-                />
-              </div>
-              <div className="form-group ">
-                <button
-                  type="submit"
-                  className="btn btn-lg brs btn-primary btn-block form-control mar text-center"
-                >
-                  Get OTP
-                </button>
-              </div>
-            </form>
+ <Mobileotp />
+          
             <hr className="loginhr" />
             <div className="form-group ">
               <button
@@ -78,7 +55,7 @@ function Signup() {
                   type="submit"
                   className="btn btn-lg btn-primary btn-block form-control mym text-center"
                 >
-                  Continue
+                   Get OTP
                 </button>
               </div>
             </form>
@@ -98,3 +75,4 @@ function Signup() {
 }
 
 export default Signup;
+

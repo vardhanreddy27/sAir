@@ -47,6 +47,89 @@ box-shadow: 00 0px 0px rgba(255, 255, 255, 0.075) inset,00 0 8px rgba(255, 255, 
   color: #e9e100;
 
  }
+ .thismy{
+  width: 74%!important;
+  margin-left: 9%;
+ }
  .myb{
   margin-bottom: 5%!important;
  }
+ .mygrids{
+  display: grid;
+ justify-content: center!important;}
+ .mtmy{
+  
+    margin-top: 35%;
+    margin-bottom: 4%;
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+  box-shadow: 0 0px 0px rgba(255, 255, 255, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6)!important;
+  outline: 0 none;
+}
+ .mycolp{
+    text-align: center!important;
+    width: 74%!important;
+ }
+ .opt-container{display: flex!important;
+  flex-direction: row!important;
+  margin-left: 20px!important;
+  justify-content: center!important;
+  align-items: center!important;}
+  .special-label{
+    display: none!important;
+  }
+  .profileicon{
+    height: 100%;
+    width: 164%;
+    margin-bottom: 11px;
+  }
+  .cart2{
+    margin-bottom: 11%;
+    margin-right: 9%;
+  }
+  .mynavd{
+width: 95%!important;  }
+@media only screen and (min-width: 1400px) {
+  .profileicon{
+    height: 100%;
+    width: 164%;
+  }     .cart2 {
+           margin-bottom: 10%;
+           margin-left: 15%;
+   }}  
+
+   .dropdown:hover .dropdown-content {display: block;}
+
+   .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 260px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  .dropbtn{
+    background-color: white;
+    border: 0px;
+  }
+  .mbp{
+    margin-bottom: 0%!important;
+  }
+  .readonlycolor{
+    background-color: #1c1c000d;
+}  .readonlycolor:focus{
+  background-color: #1c1c000d!important;
+}
+.me{
+  width: 101%!important;
+}

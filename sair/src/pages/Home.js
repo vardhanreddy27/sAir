@@ -5,7 +5,6 @@ import Navbar from "../components/Navbar";
 import { AiFillHome, AiOutlineStar, AiOutlineUserAdd } from "react-icons/ai";
 import { TbDiscount2 } from "react-icons/tb";
 import { Outlet, Link } from "react-router-dom";
-import prd from "../../public/shoe.png";
 import { BsShop } from "react-icons/bs";
 import { SiOpenstreetmap } from "react-icons/si";
 import { BiSupport } from "react-icons/bi";
@@ -17,8 +16,8 @@ import TrackOrders from "./TrackOrders";
 import Wishlist from "./Wishlist";
 import Support from "./Support";
 import Signup from "./Signup";
-
 function Home() {
+
   const [isActive, setIsActive] = useState(true);
   const [isSecond, setIsSecond] = useState(false);
   const [isThree, setIsThree] = useState(false);
@@ -108,7 +107,7 @@ function Home() {
           <div className="menu">
             <div className="d-grid mt-5">
    
-            <button
+            <Link to="/">  <button
                 type="button"
                 className={
                   isActive
@@ -117,10 +116,10 @@ function Home() {
                 }
                 onClick={handleClick}
               >
-                <Link to="/">
+               
                   <AiFillHome className="menuicon" /> Home
-                </Link>
-              </button>
+           
+              </button>     </Link>
                        <button
                 type="button"
                 className={
@@ -192,7 +191,7 @@ function Home() {
           ) : isThree ? (
             <Shops />
           ) : isFour ? (
-            <TrackOrders />
+            <TrackOrders isLoggedIn={false}/>
           ) : isFive ? (
             <Wishlist />
           ) : isSix ? (

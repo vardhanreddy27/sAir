@@ -38,8 +38,11 @@ background-color: aqua;
     position: relative!important;
     height: 89.5vh;
 }
+.mart{margin-top: 46%!important;}
 @media only screen and (min-width: 1400px) {
- .tmy{
+ .mart{
+    margin-top: 57%!important;
+ }.tmy{
     margin-left: 21%!important;
  } .cart{
     margin-bottom: 8%!important;
@@ -77,7 +80,9 @@ background-color: aqua;
     }
 }
 @media only screen and (min-width: 1400px) {
-    .ji{
+    .thismy{
+        margin-left: 10%!important;;
+       } .ji{
         margin-top: 32%!important;
     }.jii{
         margin-top: 24%!important;
@@ -624,3 +629,19 @@ input[type="color"]:focus,
         .recent-viewed-section{
             margin: 20px 1px 4px 13px;
         }
+        .hfr{
+            flex-direction: row;
+    justify-content: center;
+        }
+  
+        .myco{
+            height: 100%;
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .gif{
+            width: 22%!important;
+            position: absolute;        }
+           
